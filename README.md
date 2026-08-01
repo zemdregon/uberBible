@@ -1,8 +1,8 @@
 # uberBible
 
-Public-domain Protestant Christian Bibles plus original-language texts (Hebrew OT, Greek NT/LXX, Coptic).
+English public-domain Protestant Christian Bibles plus original-language texts (Hebrew OT, Greek NT/LXX, Coptic).
 
-Catholic editions (Douay-Rheims, Vulgate, WEB Catholic, Petrus Canisius) and Jewish-specific translations (JPS, Leeser, Targum Onkelos) are excluded.
+Non-English modern translations are not included. Catholic editions (Douay-Rheims, Vulgate, WEB Catholic, Petrus Canisius) and Jewish-specific translations (JPS, Leeser, Targum Onkelos) are excluded.
 
 ## Layout
 
