@@ -9,7 +9,7 @@ Catholic editions (Douay-Rheims, Vulgate, WEB Catholic, Petrus Canisius) and Jew
 | Path | Role |
 |------|------|
 | [`source/`](source/) | Raw downloads (immutable archive). Prefer USFM under `source/ebible/*/usfm/`. |
-| [`derived/`](derived/) | **Processed exports, keyed by format** — not only JSON, not only embeddings. |
+| [`derived/`](derived/) | **Processed exports, keyed by format** |
 | [`derived/jsonl/`](derived/jsonl/) | Verse-level JSONL (normalize step). |
 | [`derived/md/`](derived/md/) | Chapter Markdown trees (`{id}/{Book}/{NN}.md`). Generate locally; gitignored (large). |
 | [`derived/manifest.json`](derived/manifest.json) | What was built for each format. |
@@ -18,7 +18,7 @@ Catholic editions (Douay-Rheims, Vulgate, WEB Catholic, Petrus Canisius) and Jew
 
 Embeddings / Qdrant are **one consumer** of `derived/jsonl/`. The project goal is a reusable multi-format corpus.
 
-**Site:** [zemdregon.github.io/uberBible](https://zemdregon.github.io/uberBible/) (MkDocs Material, same model as [nix-docs](https://github.com/zemdregon/nix-docs)).
+**Site:** [zemdregon.github.io/uberBible](https://zemdregon.github.io/uberBible/)
 
 ```
 source/ebible/.../usfm  →  scripts/normalize-usfm.js  →  derived/jsonl/*.jsonl
