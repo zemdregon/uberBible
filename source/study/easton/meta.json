@@ -1,0 +1,11 @@
+{
+  "id": "easton",
+  "title": "Easton's Bible Dictionary (1897)",
+  "kind": "dictionary",
+  "license": "public-domain",
+  "attribution": "M.G. Easton 1897; structured data via neuu-org/bible-dictionary-dataset (CC BY 4.0 packaging)",
+  "source": "https://github.com/neuu-org/bible-dictionary-dataset",
+  "acquired": "2026-08-01T22:31:29.209Z",
+  "status": "ok",
+  "bytes": 5768829
+}

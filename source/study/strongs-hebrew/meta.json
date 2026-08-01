@@ -1,0 +1,11 @@
+{
+  "id": "strongs-hebrew",
+  "title": "Strong's Hebrew Dictionary",
+  "kind": "lexicon",
+  "license": "public-domain",
+  "attribution": "James Strong 1890; e-text Michael Grier; corrections Ulrik Sandborg-Petersen, Weston Ruter, Open Scriptures",
+  "source": "https://github.com/openscriptures/strongs",
+  "acquired": "2026-08-01T22:31:23.187Z",
+  "status": "ok",
+  "bytes": 1456344
+}

@@ -1,0 +1,11 @@
+{
+  "id": "tbesg",
+  "title": "TBESG — Translators Brief Lexicon of Extended Strongs (Greek)",
+  "kind": "lexicon",
+  "license": "CC-BY-4.0",
+  "attribution": "STEPBible / Tyndale House Cambridge (CC BY 4.0); Abbott-Smith lineage noted upstream",
+  "source": "https://github.com/STEPBible/STEPBible-Data",
+  "acquired": "2026-08-01T22:31:51.451Z",
+  "status": "ok",
+  "bytes": 4736912
+}

@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
-# Stage derived/md into ./docs for MkDocs (docs_dir cannot be repo root).
-# Mirrors nix-docs meta/prepare-docs-dir.sh: symlink vault → docs/, shallow nav.
+# Stage derived/md (+ derived/study/md) into ./docs for MkDocs.
 set -euo pipefail
 
 root="$(cd "$(dirname "$0")/.." && pwd)"
 docs="$root/docs"
 md_root="$root/derived/md"
+study_md="$root/derived/study/md"
 
 if [[ ! -d "$md_root" ]]; then
   echo "Missing $md_root — run: node scripts/export-md.js --all" >&2
@@ -24,12 +24,28 @@ if [[ ${#translations[@]} -eq 0 ]]; then
   exit 1
 fi
 
+study_works=()
+if [[ -d "$study_md" ]]; then
+  while IFS= read -r -d '' d; do
+    id="$(basename "$d")"
+    [[ -f "$d/README.md" ]] || continue
+    study_works+=("$id")
+  done < <(find "$study_md" -mindepth 1 -maxdepth 1 -type d -print0 | sort -z)
+fi
+
 rm -rf "$docs"
 mkdir -p "$docs"
 
 for id in "${translations[@]}"; do
   ln -s "$md_root/$id" "$docs/$id"
 done
+
+if [[ ${#study_works[@]} -gt 0 ]]; then
+  mkdir -p "$docs/study"
+  for id in "${study_works[@]}"; do
+    ln -s "$study_md/$id" "$docs/study/$id"
+  done
+fi
 
 # Home page
 {
@@ -40,11 +56,11 @@ title: uberBible
 
 # uberBible
 
-Public-domain Protestant Christian Bibles as chapter Markdown.
+English public-domain Protestant Christian Bibles and original-language texts as chapter Markdown, plus a separate study-materials corpus (concordances, dictionaries, cross-references, commentaries, gazetteers).
 
-Source of truth is [`derived/jsonl/`](https://github.com/zemdregon/uberBible/tree/main/derived/jsonl);
-this site is generated from [`derived/md/`](https://github.com/zemdregon/uberBible/tree/main/derived/md)
-(exported locally / in CI — large trees are not committed).
+Verse source of truth: [`derived/jsonl/`](https://github.com/zemdregon/uberBible/tree/main/derived/jsonl).
+Study source of truth: [`derived/study/jsonl/`](https://github.com/zemdregon/uberBible/tree/main/derived/study/jsonl).
+This site is generated from Markdown exports (large trees are not committed).
 
 ## Translations
 
@@ -62,6 +78,28 @@ EOF
     fi
     echo "- [$title]($id/README.md) (\`$id\`)"
   done
+
+  if [[ ${#study_works[@]} -gt 0 ]]; then
+    cat <<'EOF'
+
+## Study materials
+
+EOF
+    for id in "${study_works[@]}"; do
+      title="$id"
+      if [[ -f "$study_md/$id/README.md" ]]; then
+        name_line="$(grep -m1 '^work_title:' "$study_md/$id/README.md" || true)"
+        if [[ -n "$name_line" ]]; then
+          title="${name_line#work_title: }"
+          title="${title# }"
+          title="${title#\"}"
+          title="${title%\"}"
+        fi
+      fi
+      echo "- [$title](study/$id/README.md) (\`$id\`)"
+    done
+  fi
+
   cat <<'EOF'
 
 ## How this site is built
@@ -70,7 +108,7 @@ Same model as [nix-docs](https://github.com/zemdregon/nix-docs): Markdown vault 
 EOF
 } > "$docs/README.md"
 
-# Generate mkdocs.yml = base + shallow nav (translation indexes only)
+# Generate mkdocs.yml = base + shallow nav
 node "$root/scripts/generate-mkdocs-config.js"
 
-echo "Prepared $docs (${#translations[@]} translations)"
+echo "Prepared $docs (${#translations[@]} translations, ${#study_works[@]} study works)"

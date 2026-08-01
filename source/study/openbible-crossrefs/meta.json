@@ -1,0 +1,11 @@
+{
+  "id": "openbible-crossrefs",
+  "title": "OpenBible Cross References (TSK-derived)",
+  "kind": "crossref",
+  "license": "CC-BY",
+  "attribution": "OpenBible.info; primarily Treasury of Scripture Knowledge (public domain)",
+  "source": "https://www.openbible.info/labs/cross-references/",
+  "acquired": "2026-08-01T22:31:24.111Z",
+  "status": "ok",
+  "bytes": 8301787
+}

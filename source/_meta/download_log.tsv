@@ -2,44 +2,49 @@ id	title	status	format	bytes	path
 copbhc	Coptic Boharic NT	ok	usfm	438775	/home/ender/Projects/uberBible/source/ebible/copbhc/usfm
 copcnt	Coptic NT	ok	usfm	463058	/home/ender/Projects/uberBible/source/ebible/copcnt/usfm
 eng-asv	American Standard Version (1901)	ok	usfm	2875147	/home/ender/Projects/uberBible/source/ebible/eng-asv/usfm
-eng-uk-lxx2012	British English Septuagint 2012	ok	usfm	1394911	/home/ender/Projects/uberBible/source/ebible/eng-uk-lxx2012/usfm
-engBBE	Bible in Basic English	ok	usfm	2857395	/home/ender/Projects/uberBible/source/ebible/engBBE/usfm
-engasvbt	ASV Byzantine Text	ok	usfm	3209390	/home/ender/Projects/uberBible/source/ebible/engasvbt/usfm
 eng-Brenton	Brenton English Septuagint	ok	usfm	1442061	/home/ender/Projects/uberBible/source/ebible/eng-Brenton/usfm
-engDBY	Darby Translation	ok	usfm	2797703	/home/ender/Projects/uberBible/source/ebible/engDBY/usfm
-engbsb	English Berean Standard Bible	ok	usfm	3021299	/home/ender/Projects/uberBible/source/ebible/engbsb/usfm
-enggnv	Geneva Bible 1599	ok	usfm	1409822	/home/ender/Projects/uberBible/source/ebible/enggnv/usfm
-eng-kjv2006	King James Version	ok	usfm	2465876	/home/ender/Projects/uberBible/source/ebible/eng-kjv2006/usfm
 eng-kjv	King James Version + Apocrypha	ok	usfm	2770418	/home/ender/Projects/uberBible/source/ebible/eng-kjv/usfm
-engkjvcpb	KJV Cambridge Paragraph	ok	usfm	1797348	/home/ender/Projects/uberBible/source/ebible/engkjvcpb/usfm
+eng-kjv2006	King James Version	ok	usfm	2465876	/home/ender/Projects/uberBible/source/ebible/eng-kjv2006/usfm
 eng-lxx2012	LXX2012 U. S. English	ok	usfm	1394473	/home/ender/Projects/uberBible/source/ebible/eng-lxx2012/usfm
-engnoy	Noyes Bible	ok	usfm	818592	/home/ender/Projects/uberBible/source/ebible/engnoy/usfm
-engmsb	Majority Standard BIble	ok	usfm	2789801	/home/ender/Projects/uberBible/source/ebible/engmsb/usfm
-engoebus	Open English Bible (US)	ok	usfm	1285044	/home/ender/Projects/uberBible/source/ebible/engoebus/usfm
-engtnt	Tyndale NT	ok	usfm	371782	/home/ender/Projects/uberBible/source/ebible/engtnt/usfm
-engoebcw	Open English Bible (Commonwealth)	ok	usfm	1284693	/home/ender/Projects/uberBible/source/ebible/engoebcw/usfm
-englxxup	Updated Brenton English Septuagint	ok	usfm	1352477	/home/ender/Projects/uberBible/source/ebible/englxxup/usfm
 eng-rv	Revised Version	ok	usfm	3165835	/home/ender/Projects/uberBible/source/ebible/eng-rv/usfm
-engwebster	Webster Bible	ok	usfm	1424047	/home/ender/Projects/uberBible/source/ebible/engwebster/usfm
+eng-t4t	Translation for Translators	ok	usfm	20863461	/home/ender/Projects/uberBible/source/ebible/eng-t4t/usfm
+eng-uk-lxx2012	British English Septuagint 2012	ok	usfm	1394911	/home/ender/Projects/uberBible/source/ebible/eng-uk-lxx2012/usfm
+eng-web	World English Bible Classic	ok	usfm	3249017	/home/ender/Projects/uberBible/source/ebible/eng-web/usfm
+eng-webbe	World English Bible British Edition with Deuterocanon	ok	usfm	3267149	/home/ender/Projects/uberBible/source/ebible/eng-webbe/usfm
+engasvbt	ASV Byzantine Text	ok	usfm	3209390	/home/ender/Projects/uberBible/source/ebible/engasvbt/usfm
+engBBE	Bible in Basic English	ok	usfm	2857395	/home/ender/Projects/uberBible/source/ebible/engBBE/usfm
+engbsb	English Berean Standard Bible	ok	usfm	3021299	/home/ender/Projects/uberBible/source/ebible/engbsb/usfm
+engDBY	Darby Translation	ok	usfm	2797703	/home/ender/Projects/uberBible/source/ebible/engDBY/usfm
+engfbv	Free Bible Version	ok	usfm	17732716	/home/ender/Projects/uberBible/source/ebible/engfbv/usfm
+enggnv	Geneva Bible 1599	ok	usfm	1409822	/home/ender/Projects/uberBible/source/ebible/enggnv/usfm
+engkjvcpb	KJV Cambridge Paragraph	ok	usfm	1797348	/home/ender/Projects/uberBible/source/ebible/engkjvcpb/usfm
+englsv	Literal Standard Version	ok	usfm	19241005	/home/ender/Projects/uberBible/source/ebible/englsv/usfm
+englxxup	Updated Brenton English Septuagint	ok	usfm	1352477	/home/ender/Projects/uberBible/source/ebible/englxxup/usfm
+engmsb	Majority Standard BIble	ok	usfm	2789801	/home/ender/Projects/uberBible/source/ebible/engmsb/usfm
+engnoy	Noyes Bible	ok	usfm	818592	/home/ender/Projects/uberBible/source/ebible/engnoy/usfm
+engoebcw	Open English Bible (Commonwealth)	ok	usfm	1284693	/home/ender/Projects/uberBible/source/ebible/engoebcw/usfm
+engoebus	Open English Bible (US)	ok	usfm	1285044	/home/ender/Projects/uberBible/source/ebible/engoebus/usfm
+engtcent	Text-Critical English New Testament	ok	usfm	4898048	/home/ender/Projects/uberBible/source/ebible/engtcent/usfm
+engtnt	Tyndale NT	ok	usfm	371782	/home/ender/Projects/uberBible/source/ebible/engtnt/usfm
+engULB	Unlocked Literal Bible	ok	usfm	4523809	/home/ender/Projects/uberBible/source/ebible/engULB/usfm
 engwebp	World English Bible	ok	usfm	2903202	/home/ender/Projects/uberBible/source/ebible/engwebp/usfm
 engwebpb	World English Bible British Edition	ok	usfm	2907375	/home/ender/Projects/uberBible/source/ebible/engwebpb/usfm
-eng-webbe	World English Bible British Edition with Deuterocanon	ok	usfm	3267149	/home/ender/Projects/uberBible/source/ebible/eng-webbe/usfm
+engwebster	Webster Bible	ok	usfm	1424047	/home/ender/Projects/uberBible/source/ebible/engwebster/usfm
 engwebu	World English Bible Updated	ok	usfm	3261947	/home/ender/Projects/uberBible/source/ebible/engwebu/usfm
-eng-web	World English Bible Classic	ok	usfm	3249017	/home/ender/Projects/uberBible/source/ebible/eng-web/usfm
 engwmb	World Messianic Bible	ok	usfm	2890266	/home/ender/Projects/uberBible/source/ebible/engwmb/usfm
-engWycliffe	Wycliffe Bible portions	ok	usfm	421316	/home/ender/Projects/uberBible/source/ebible/engWycliffe/usfm
 engwmbb	World Messianic Bible British Edition	ok	usfm	2890772	/home/ender/Projects/uberBible/source/ebible/engwmbb/usfm
+engWycliffe	Wycliffe Bible portions	ok	usfm	421316	/home/ender/Projects/uberBible/source/ebible/engWycliffe/usfm
 engylt	Young's Literal Translation	ok	usfm	1385550	/home/ender/Projects/uberBible/source/ebible/engylt/usfm
+grc-tisch	Tischendorf Greek NT	ok	usfm	1218957	/home/ender/Projects/uberBible/source/ebible/grc-tisch/usfm
 grcbrent	Brenton Septuagint	ok	usfm	1728472	/home/ender/Projects/uberBible/source/ebible/grcbrent/usfm
 grcbyz	Byzantine Greek  NT	ok	usfm	810473	/home/ender/Projects/uberBible/source/ebible/grcbyz/usfm
-grcmt	Greek Majority Text NT	ok	usfm	866145	/home/ender/Projects/uberBible/source/ebible/grcmt/usfm
 grclxx	SEPTUAGINTA	ok	usfm	1674679	/home/ender/Projects/uberBible/source/ebible/grclxx/usfm
+grcmt	Greek Majority Text NT	ok	usfm	866145	/home/ender/Projects/uberBible/source/ebible/grcmt/usfm
 grcsr	Solid Rock Greek New Testament	ok	usfm	1065318	/home/ender/Projects/uberBible/source/ebible/grcsr/usfm
 grctcgnt	Text-Critical Greek NT	ok	usfm	1046857	/home/ender/Projects/uberBible/source/ebible/grctcgnt/usfm
 grctr	Textus Receptus	ok	usfm	787287	/home/ender/Projects/uberBible/source/ebible/grctr/usfm
-grc-tisch	Tischendorf Greek NT	ok	usfm	1218957	/home/ender/Projects/uberBible/source/ebible/grc-tisch/usfm
 hbo	Hebrew Masoretic OT	ok	usfm	1482191	/home/ender/Projects/uberBible/source/ebible/hbo/usfm
+hboWLC	Westminster Leningrad Codex Hebrew OT	ok	usfm	2218423	/home/ender/Projects/uberBible/source/ebible/hboWLC/usfm
 heb	Modern Hebrew Bible	ok	usfm	1077434	/home/ender/Projects/uberBible/source/ebible/heb/usfm
 hebsg	Salkinson Hebrew NT	ok	usfm	468284	/home/ender/Projects/uberBible/source/ebible/hebsg/usfm
-hboWLC	Westminster Leningrad Codex Hebrew OT	ok	usfm	2218423	/home/ender/Projects/uberBible/source/ebible/hboWLC/usfm
 hebwlc	Hebrew OT (WLC)	ok	usfm	1466911	/home/ender/Projects/uberBible/source/ebible/hebwlc/usfm

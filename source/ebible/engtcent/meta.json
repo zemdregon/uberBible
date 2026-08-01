@@ -1,0 +1,11 @@
+{
+  "id": "engtcent",
+  "title": "Text-Critical English New Testament",
+  "source": "ebible.org",
+  "format": "usfm",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "source_url": "https://ebible.org/details.php?id=engtcent",
+  "year": "2022",
+  "notes": "NT only (Byzantine Text Version / TCENT by Robert Adam Boyd)."
+}

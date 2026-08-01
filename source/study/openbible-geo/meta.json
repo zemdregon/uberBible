@@ -1,0 +1,11 @@
+{
+  "id": "openbible-geo",
+  "title": "OpenBible Bible Geocoding Data",
+  "kind": "gazetteer",
+  "license": "CC-BY-4.0",
+  "attribution": "OpenBible.info; OpenStreetMap data under ODbL where applicable",
+  "source": "https://github.com/openbibleinfo/Bible-Geocoding-Data",
+  "acquired": "2026-08-01T22:31:38.228Z",
+  "status": "ok",
+  "bytes": 14930698
+}

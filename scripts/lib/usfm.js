@@ -136,9 +136,17 @@ function parseUsfmBook(content) {
   return verses;
 }
 
+function licenseTag(license) {
+  const s = String(license || 'public-domain').toLowerCase();
+  if (s.includes('public') || s === 'cc0' || s.includes('cc0')) return 'public-domain';
+  if (s.includes('by-sa') || s.includes('sharealike') || s.includes('share-alike')) return 'cc-by-sa';
+  if (s.includes('by') && !s.includes('nc') && !s.includes('nd')) return 'cc-by';
+  return s.replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'licensed';
+}
+
 function buildVerseRecord({ translationId, translationName, language, license }, v) {
   const testamentTag = v.book.testament === 'OT' ? 'ot' : 'nt';
-  const tags = [testamentTag, v.book.section, 'public-domain'].filter(Boolean);
+  const tags = [testamentTag, v.book.section, licenseTag(license)].filter(Boolean);
   const id = `${translationId}:${v.book.osis}.${v.chapter}.${v.verse}`;
   const text_for_embed = `${v.book.name} ${v.chapter}:${v.verse} — ${v.text}`;
 

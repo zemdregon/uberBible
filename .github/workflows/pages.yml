@@ -27,6 +27,14 @@ jobs:
       - name: Export chapter Markdown from JSONL
         run: node scripts/export-md.js --all
 
+      - name: Export study Markdown from study JSONL
+        run: |
+          if [ -d derived/study/jsonl ] && ls derived/study/jsonl/*.jsonl >/dev/null 2>&1; then
+            node scripts/export-study-md.js --all
+          else
+            echo "No study JSONL present; skipping study MD export"
+          fi
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"

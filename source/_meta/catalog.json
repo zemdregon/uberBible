@@ -1,11 +1,12 @@
 {
-  "generated": "2026-08-01T22:06:55.847Z",
-  "scope": "English public-domain Protestant Christian Bibles plus original-language texts (Hebrew OT, Greek NT/LXX, Coptic). Non-English modern translations were removed. Catholic editions (Douay-Rheims, Vulgate, WEB Catholic, Petrus Canisius) and Jewish-specific translations (JPS, Leeser, Targum Onkelos) were excluded.",
+  "generated": "2026-08-01T22:39:12.050Z",
+  "scope": "English public-domain and Creative Commons (CC BY / CC BY-SA) Protestant Christian Bibles plus original-language texts (Hebrew OT, Greek NT/LXX, Coptic). Non-English modern translations are not included. Catholic editions (Douay-Rheims, Vulgate, WEB Catholic, Petrus Canisius) and Jewish-specific translations (JPS, Leeser, Targum Onkelos) are excluded.",
   "preferred_format": "USFM (easy to convert to Markdown)",
   "counts": {
-    "ebible_translations": 44,
-    "ebible_with_files": 44,
-    "original_language_packages": 9
+    "ebible_translations": 49,
+    "ebible_with_files": 49,
+    "original_language_packages": 9,
+    "pending_translations": 1
   },
   "excluded_from_ebible_pd_list": [
     {
@@ -39,7 +40,9 @@
   ],
   "notes": [
     "Original-language packages under originals/ include morphologically tagged editions (Nestle 1904, W-H, TR variants, Byzantine, MorphHB) in addition to plain USFM copies under ebible/.",
-    "WLC Hebrew text is public domain; Open Scriptures morphology is CC BY 4.0."
+    "WLC Hebrew text is public domain; Open Scriptures morphology is CC BY 4.0.",
+    "English CC BY / CC BY-SA translations under ebible/ include LSV, FBV, T4T, ULB, and TCENT; see ebible_cc_english.json.",
+    "Open Source Bible (opensourcebible.org) is catalogued under pending until a text release exists."
   ],
   "ebible": [
     {
@@ -85,6 +88,133 @@
       "source": "https://ebible.org/details.php?id=eng-asv"
     },
     {
+      "id": "eng-Brenton",
+      "title": "Brenton English Septuagint",
+      "language": "English",
+      "year": "1851",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/eng-Brenton",
+      "bytes": 4587261,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=eng-Brenton"
+    },
+    {
+      "id": "eng-kjv",
+      "title": "King James Version + Apocrypha",
+      "language": "English",
+      "year": "1611, 1769",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/eng-kjv",
+      "bytes": 13450728,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=eng-kjv"
+    },
+    {
+      "id": "eng-kjv2006",
+      "title": "King James Version",
+      "language": "English",
+      "year": "1611, 1769",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/eng-kjv2006",
+      "bytes": 12552413,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=eng-kjv2006"
+    },
+    {
+      "id": "eng-lxx2012",
+      "title": "LXX2012 U. S. English",
+      "language": "English",
+      "year": "1851, 2012",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/eng-lxx2012",
+      "bytes": 4465777,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=eng-lxx2012"
+    },
+    {
+      "id": "eng-rv",
+      "title": "Revised Version",
+      "language": "English",
+      "year": "1895",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/eng-rv",
+      "bytes": 20464236,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=eng-rv"
+    },
+    {
+      "id": "eng-t4t",
+      "title": "Translation for Translators",
+      "language": "English",
+      "year": "2008-2017",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/eng-t4t",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://ebible.org/details.php?id=eng-t4t",
+      "bytes": 20863461
+    },
+    {
+      "id": "eng-uk-lxx2012",
+      "title": "British English Septuagint 2012",
+      "language": "English",
+      "year": "1851, 2012",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/eng-uk-lxx2012",
+      "bytes": 4469016,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=eng-uk-lxx2012"
+    },
+    {
+      "id": "eng-web",
+      "title": "World English Bible Classic",
+      "language": "English",
+      "year": "1997-2023",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/eng-web",
+      "bytes": 20005045,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=eng-web"
+    },
+    {
+      "id": "eng-webbe",
+      "title": "World English Bible British Edition with Deuterocanon",
+      "language": "English",
+      "year": "2011-2024",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/eng-webbe",
+      "bytes": 20142429,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=eng-webbe"
+    },
+    {
       "id": "engasvbt",
       "title": "ASV Byzantine Text",
       "language": "English",
@@ -113,32 +243,18 @@
       "source": "https://ebible.org/details.php?id=engBBE"
     },
     {
-      "id": "eng-Brenton",
-      "title": "Brenton English Septuagint",
+      "id": "engbsb",
+      "title": "English Berean Standard Bible",
       "language": "English",
-      "year": "1851",
+      "year": "2020",
       "format": "usfm",
       "formats": [
         "usfm"
       ],
-      "path": "ebible/eng-Brenton",
-      "bytes": 4587261,
+      "path": "ebible/engbsb",
+      "bytes": 18185895,
       "license": "public-domain",
-      "source": "https://ebible.org/details.php?id=eng-Brenton"
-    },
-    {
-      "id": "eng-uk-lxx2012",
-      "title": "British English Septuagint 2012",
-      "language": "English",
-      "year": "1851, 2012",
-      "format": "usfm",
-      "formats": [
-        "usfm"
-      ],
-      "path": "ebible/eng-uk-lxx2012",
-      "bytes": 4469016,
-      "license": "public-domain",
-      "source": "https://ebible.org/details.php?id=eng-uk-lxx2012"
+      "source": "https://ebible.org/details.php?id=engbsb"
     },
     {
       "id": "engDBY",
@@ -155,18 +271,19 @@
       "source": "https://ebible.org/details.php?id=engDBY"
     },
     {
-      "id": "engbsb",
-      "title": "English Berean Standard Bible",
+      "id": "engfbv",
+      "title": "Free Bible Version",
       "language": "English",
-      "year": "2020",
+      "year": "2018",
       "format": "usfm",
       "formats": [
         "usfm"
       ],
-      "path": "ebible/engbsb",
-      "bytes": 18185895,
-      "license": "public-domain",
-      "source": "https://ebible.org/details.php?id=engbsb"
+      "path": "ebible/engfbv",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://ebible.org/details.php?id=engfbv",
+      "bytes": 17732716
     },
     {
       "id": "enggnv",
@@ -183,34 +300,6 @@
       "source": "https://ebible.org/details.php?id=enggnv"
     },
     {
-      "id": "eng-kjv2006",
-      "title": "King James Version",
-      "language": "English",
-      "year": "1611, 1769",
-      "format": "usfm",
-      "formats": [
-        "usfm"
-      ],
-      "path": "ebible/eng-kjv2006",
-      "bytes": 12552413,
-      "license": "public-domain",
-      "source": "https://ebible.org/details.php?id=eng-kjv2006"
-    },
-    {
-      "id": "eng-kjv",
-      "title": "King James Version + Apocrypha",
-      "language": "English",
-      "year": "1611, 1769",
-      "format": "usfm",
-      "formats": [
-        "usfm"
-      ],
-      "path": "ebible/eng-kjv",
-      "bytes": 13450728,
-      "license": "public-domain",
-      "source": "https://ebible.org/details.php?id=eng-kjv"
-    },
-    {
       "id": "engkjvcpb",
       "title": "KJV Cambridge Paragraph",
       "language": "English",
@@ -225,18 +314,33 @@
       "source": "https://ebible.org/details.php?id=engkjvcpb"
     },
     {
-      "id": "eng-lxx2012",
-      "title": "LXX2012 U. S. English",
+      "id": "englsv",
+      "title": "Literal Standard Version",
       "language": "English",
-      "year": "1851, 2012",
+      "year": "2020",
       "format": "usfm",
       "formats": [
         "usfm"
       ],
-      "path": "ebible/eng-lxx2012",
-      "bytes": 4465777,
+      "path": "ebible/englsv",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://ebible.org/details.php?id=englsv",
+      "bytes": 19241005
+    },
+    {
+      "id": "englxxup",
+      "title": "Updated Brenton English Septuagint",
+      "language": "English",
+      "year": "1851",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/englxxup",
+      "bytes": 4414855,
       "license": "public-domain",
-      "source": "https://ebible.org/details.php?id=eng-lxx2012"
+      "source": "https://ebible.org/details.php?id=englxxup"
     },
     {
       "id": "engmsb",
@@ -295,18 +399,20 @@
       "source": "https://ebible.org/details.php?id=engoebus"
     },
     {
-      "id": "eng-rv",
-      "title": "Revised Version",
+      "id": "engtcent",
+      "title": "Text-Critical English New Testament",
       "language": "English",
-      "year": "1895",
+      "year": "2022",
       "format": "usfm",
       "formats": [
         "usfm"
       ],
-      "path": "ebible/eng-rv",
-      "bytes": 20464236,
-      "license": "public-domain",
-      "source": "https://ebible.org/details.php?id=eng-rv"
+      "path": "ebible/engtcent",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "https://ebible.org/details.php?id=engtcent",
+      "notes": "NT only (Byzantine Text Version / TCENT).",
+      "bytes": 4898048
     },
     {
       "id": "engtnt",
@@ -323,32 +429,19 @@
       "source": "https://ebible.org/details.php?id=engtnt"
     },
     {
-      "id": "englxxup",
-      "title": "Updated Brenton English Septuagint",
+      "id": "engULB",
+      "title": "Unlocked Literal Bible",
       "language": "English",
-      "year": "1851",
+      "year": "2017",
       "format": "usfm",
       "formats": [
         "usfm"
       ],
-      "path": "ebible/englxxup",
-      "bytes": 4414855,
-      "license": "public-domain",
-      "source": "https://ebible.org/details.php?id=englxxup"
-    },
-    {
-      "id": "engwebster",
-      "title": "Webster Bible",
-      "language": "English",
-      "year": "1833",
-      "format": "usfm",
-      "formats": [
-        "usfm"
-      ],
-      "path": "ebible/engwebster",
-      "bytes": 4627902,
-      "license": "public-domain",
-      "source": "https://ebible.org/details.php?id=engwebster"
+      "path": "ebible/engULB",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://ebible.org/details.php?id=engULB",
+      "bytes": 4523809
     },
     {
       "id": "engwebp",
@@ -379,32 +472,18 @@
       "source": "https://ebible.org/details.php?id=engwebpb"
     },
     {
-      "id": "eng-webbe",
-      "title": "World English Bible British Edition with Deuterocanon",
+      "id": "engwebster",
+      "title": "Webster Bible",
       "language": "English",
-      "year": "2011-2024",
+      "year": "1833",
       "format": "usfm",
       "formats": [
         "usfm"
       ],
-      "path": "ebible/eng-webbe",
-      "bytes": 20142429,
+      "path": "ebible/engwebster",
+      "bytes": 4627902,
       "license": "public-domain",
-      "source": "https://ebible.org/details.php?id=eng-webbe"
-    },
-    {
-      "id": "eng-web",
-      "title": "World English Bible Classic",
-      "language": "English",
-      "year": "1997-2023",
-      "format": "usfm",
-      "formats": [
-        "usfm"
-      ],
-      "path": "ebible/eng-web",
-      "bytes": 20005045,
-      "license": "public-domain",
-      "source": "https://ebible.org/details.php?id=eng-web"
+      "source": "https://ebible.org/details.php?id=engwebster"
     },
     {
       "id": "engwebu",
@@ -477,6 +556,20 @@
       "source": "https://ebible.org/details.php?id=engylt"
     },
     {
+      "id": "grc-tisch",
+      "title": "Tischendorf Greek NT",
+      "language": "Greek, Ancient",
+      "year": "",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/grc-tisch",
+      "bytes": 9445161,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=grc-tisch"
+    },
+    {
       "id": "grcbrent",
       "title": "Brenton Septuagint",
       "language": "Greek, Ancient",
@@ -505,20 +598,6 @@
       "source": "https://ebible.org/details.php?id=grcbyz"
     },
     {
-      "id": "grcmt",
-      "title": "Greek Majority Text NT",
-      "language": "Greek, Ancient",
-      "year": "2018",
-      "format": "usfm",
-      "formats": [
-        "usfm"
-      ],
-      "path": "ebible/grcmt",
-      "bytes": 6891913,
-      "license": "public-domain",
-      "source": "https://ebible.org/details.php?id=grcmt"
-    },
-    {
       "id": "grclxx",
       "title": "SEPTUAGINTA",
       "language": "Greek, Ancient",
@@ -531,6 +610,20 @@
       "bytes": 7090910,
       "license": "public-domain",
       "source": "https://ebible.org/details.php?id=grclxx"
+    },
+    {
+      "id": "grcmt",
+      "title": "Greek Majority Text NT",
+      "language": "Greek, Ancient",
+      "year": "2018",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/grcmt",
+      "bytes": 6891913,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=grcmt"
     },
     {
       "id": "grcsr",
@@ -575,20 +668,6 @@
       "source": "https://ebible.org/details.php?id=grctr"
     },
     {
-      "id": "grc-tisch",
-      "title": "Tischendorf Greek NT",
-      "language": "Greek, Ancient",
-      "year": "",
-      "format": "usfm",
-      "formats": [
-        "usfm"
-      ],
-      "path": "ebible/grc-tisch",
-      "bytes": 9445161,
-      "license": "public-domain",
-      "source": "https://ebible.org/details.php?id=grc-tisch"
-    },
-    {
       "id": "hbo",
       "title": "Hebrew Masoretic OT",
       "language": "Hebrew",
@@ -601,6 +680,20 @@
       "bytes": 5650638,
       "license": "public-domain",
       "source": "https://ebible.org/details.php?id=hbo"
+    },
+    {
+      "id": "hboWLC",
+      "title": "Westminster Leningrad Codex Hebrew OT",
+      "language": "Hebrew",
+      "year": "",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/hboWLC",
+      "bytes": 11967685,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=hboWLC"
     },
     {
       "id": "heb",
@@ -631,23 +724,9 @@
       "source": "https://ebible.org/details.php?id=hebsg"
     },
     {
-      "id": "hboWLC",
-      "title": "Westminster Leningrad Codex Hebrew OT",
-      "language": "Hebrew",
-      "year": "",
-      "format": "usfm",
-      "formats": [
-        "usfm"
-      ],
-      "path": "ebible/hboWLC",
-      "bytes": 11967685,
-      "license": "public-domain",
-      "source": "https://ebible.org/details.php?id=hboWLC"
-    },
-    {
       "id": "hebwlc",
       "title": "Hebrew OT (WLC)",
-      "language": "עברית",
+      "language": "\u05e2\u05d1\u05e8\u05d9\u05ea",
       "year": "2018",
       "format": "usfm",
       "formats": [
@@ -740,6 +819,17 @@
       "license": "public-domain",
       "source": "https://github.com/byztxt/greektext-westcott-hort",
       "kind": "original-language"
+    }
+  ],
+  "pending": [
+    {
+      "id": "engosb",
+      "title": "Open Source Bible",
+      "language": "English",
+      "license": "CC BY-SA 4.0 (planned)",
+      "source": "https://www.opensourcebible.org/",
+      "status": "not-released",
+      "notes": "opensourcebible.org plans a CC BY-SA 4.0 English translation (BSB text with updated NT section headings). Roadmap items still unchecked; no USFM/text download available as of 2026-08-01."
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "id": "matthew-henry",
+  "title": "Matthew Henry Commentary on the Whole Bible",
+  "kind": "commentary",
+  "license": "CC0-1.0",
+  "attribution": "Matthew Henry (public domain); markdown edition lyteword/mhenry-complete (CC0-1.0)",
+  "source": "https://github.com/lyteword/mhenry-complete",
+  "acquired": "2026-08-01T22:31:55.105Z",
+  "status": "ok",
+  "bytes": 40477073
+}

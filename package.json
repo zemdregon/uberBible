@@ -1,12 +1,17 @@
 {
   "name": "uberbible",
   "private": true,
-  "description": "Public-domain Protestant Bibles: source archives + multi-format derived exports",
+  "description": "Public-domain Protestant Bibles + study materials: source archives + multi-format derived exports",
   "scripts": {
     "normalize": "node scripts/normalize-usfm.js",
     "normalize:all": "node scripts/normalize-usfm.js --all",
     "export:md": "node scripts/export-md.js",
     "export:md:all": "node scripts/export-md.js --all",
+    "study:acquire": "node scripts/acquire-study.js",
+    "study:normalize": "node scripts/normalize-study.js",
+    "study:normalize:all": "node scripts/normalize-study.js --all",
+    "study:export:md": "node scripts/export-study-md.js",
+    "study:export:md:all": "node scripts/export-study-md.js --all",
     "docs:prepare": "bash scripts/prepare-docs-dir.sh",
     "docs:build": "bash scripts/prepare-docs-dir.sh && mkdocs build",
     "docs:serve": "bash scripts/prepare-docs-dir.sh && mkdocs serve",

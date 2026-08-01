@@ -1,0 +1,335 @@
+{
+  "generated": "2026-08-01T22:34:33.944Z",
+  "scope": "Public-domain and CC BY / CC BY-SA Bible study materials (lexicons, cross-references, dictionaries, topical works, commentaries, gazetteers). Separate from verse Bible corpus.",
+  "allowed_licenses": [
+    "public-domain",
+    "CC0-1.0",
+    "CC-BY-4.0",
+    "CC-BY",
+    "CC-BY-SA-4.0"
+  ],
+  "works": [
+    {
+      "id": "strongs-hebrew",
+      "title": "Strong's Hebrew Dictionary",
+      "kind": "lexicon",
+      "license": "public-domain",
+      "attribution": "James Strong 1890; e-text Michael Grier; corrections Ulrik Sandborg-Petersen, Weston Ruter, Open Scriptures",
+      "source": "https://github.com/openscriptures/strongs",
+      "wave": 1,
+      "acquire": {
+        "type": "files",
+        "files": [
+          {
+            "url": "https://raw.githubusercontent.com/openscriptures/strongs/master/hebrew/strongshebrew.dat",
+            "path": "strongshebrew.dat"
+          }
+        ]
+      }
+    },
+    {
+      "id": "strongs-greek",
+      "title": "Strong's Greek Dictionary",
+      "kind": "lexicon",
+      "license": "public-domain",
+      "attribution": "James Strong 1890; e-text Michael Grier; corrections Ulrik Sandborg-Petersen, Weston Ruter, Open Scriptures",
+      "source": "https://github.com/openscriptures/strongs",
+      "wave": 1,
+      "acquire": {
+        "type": "files",
+        "files": [
+          {
+            "url": "https://raw.githubusercontent.com/openscriptures/strongs/master/greek/strongsgreek.dat",
+            "path": "strongsgreek.dat"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hebrew-lexicon",
+      "title": "Open Scriptures Hebrew Lexicon (Strong + BDB index)",
+      "kind": "lexicon",
+      "license": "CC-BY-4.0",
+      "attribution": "Open Scriptures Hebrew Bible Project; Strong's and BDB texts public domain",
+      "source": "https://github.com/openscriptures/HebrewLexicon",
+      "wave": 1,
+      "acquire": {
+        "type": "files",
+        "files": [
+          {
+            "url": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/HebrewStrong.xml",
+            "path": "HebrewStrong.xml"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/LexicalIndex.xml",
+            "path": "LexicalIndex.xml"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml",
+            "path": "BrownDriverBriggs.xml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "openbible-crossrefs",
+      "title": "OpenBible Cross References (TSK-derived)",
+      "kind": "crossref",
+      "license": "CC-BY",
+      "attribution": "OpenBible.info; primarily Treasury of Scripture Knowledge (public domain)",
+      "source": "https://www.openbible.info/labs/cross-references/",
+      "wave": 1,
+      "acquire": {
+        "type": "zip",
+        "url": "https://a.openbible.info/data/cross-references.zip"
+      }
+    },
+    {
+      "id": "easton",
+      "title": "Easton's Bible Dictionary (1897)",
+      "kind": "dictionary",
+      "license": "public-domain",
+      "attribution": "M.G. Easton 1897; structured data via neuu-org/bible-dictionary-dataset (CC BY 4.0 packaging)",
+      "source": "https://github.com/neuu-org/bible-dictionary-dataset",
+      "wave": 1,
+      "acquire": {
+        "type": "github-dir",
+        "api": "https://api.github.com/repos/neuu-org/bible-dictionary-dataset/contents/data/02_sources/easton",
+        "dest": "entries"
+      }
+    },
+    {
+      "id": "smith",
+      "title": "Smith's Bible Dictionary (1863)",
+      "kind": "dictionary",
+      "license": "public-domain",
+      "attribution": "William Smith 1863; structured data via neuu-org/bible-dictionary-dataset (CC BY 4.0 packaging)",
+      "source": "https://github.com/neuu-org/bible-dictionary-dataset",
+      "wave": 1,
+      "acquire": {
+        "type": "github-dir",
+        "api": "https://api.github.com/repos/neuu-org/bible-dictionary-dataset/contents/data/02_sources/smith",
+        "dest": "entries"
+      }
+    },
+    {
+      "id": "hitchcock",
+      "title": "Hitchcock's Bible Names Dictionary (1869)",
+      "kind": "dictionary",
+      "license": "public-domain",
+      "attribution": "Roswell D. Hitchcock 1869; structured data via neuu-org/bible-dictionary-dataset (CC BY 4.0 packaging)",
+      "source": "https://github.com/neuu-org/bible-dictionary-dataset",
+      "wave": 1,
+      "acquire": {
+        "type": "github-dir",
+        "api": "https://api.github.com/repos/neuu-org/bible-dictionary-dataset/contents/data/02_sources/hitchcock",
+        "dest": "entries"
+      }
+    },
+    {
+      "id": "nave",
+      "title": "Nave's Topical Bible",
+      "kind": "topical",
+      "license": "CC-BY-4.0",
+      "attribution": "Orville J. Nave (public domain text); CSV packaging Brady Stephenson CC BY 4.0",
+      "source": "https://github.com/BradyStephenson/bible-data",
+      "wave": 1,
+      "acquire": {
+        "type": "files",
+        "files": [
+          {
+            "url": "https://raw.githubusercontent.com/BradyStephenson/bible-data/main/NavesTopicalDictionary.csv",
+            "path": "NavesTopicalDictionary.csv"
+          }
+        ]
+      }
+    },
+    {
+      "id": "openbible-geo",
+      "title": "OpenBible Bible Geocoding Data",
+      "kind": "gazetteer",
+      "license": "CC-BY-4.0",
+      "attribution": "OpenBible.info; OpenStreetMap data under ODbL where applicable",
+      "source": "https://github.com/openbibleinfo/Bible-Geocoding-Data",
+      "wave": 1,
+      "acquire": {
+        "type": "files",
+        "files": [
+          {
+            "url": "https://raw.githubusercontent.com/openbibleinfo/Bible-Geocoding-Data/main/data/ancient.jsonl",
+            "path": "ancient.jsonl"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/openbibleinfo/Bible-Geocoding-Data/main/data/modern.jsonl",
+            "path": "modern.jsonl"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/openbibleinfo/Bible-Geocoding-Data/main/data/geometry.jsonl",
+            "path": "geometry.jsonl"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bible-people",
+      "title": "Bible People Gazetteer",
+      "kind": "gazetteer",
+      "license": "CC-BY-4.0",
+      "attribution": "Brady Stephenson bible-data (CC BY 4.0)",
+      "source": "https://github.com/BradyStephenson/bible-data",
+      "wave": 1,
+      "acquire": {
+        "type": "files",
+        "files": [
+          {
+            "url": "https://raw.githubusercontent.com/BradyStephenson/bible-data/main/BibleData-Person.csv",
+            "path": "BibleData-Person.csv"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/BradyStephenson/bible-data/main/BibleData-PersonLabel.csv",
+            "path": "BibleData-PersonLabel.csv"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/BradyStephenson/bible-data/main/BibleData-PersonVerse.csv",
+            "path": "BibleData-PersonVerse.csv"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bible-places",
+      "title": "Bible Places Gazetteer",
+      "kind": "gazetteer",
+      "license": "CC-BY-4.0",
+      "attribution": "Brady Stephenson bible-data (CC BY 4.0)",
+      "source": "https://github.com/BradyStephenson/bible-data",
+      "wave": 1,
+      "acquire": {
+        "type": "files",
+        "files": [
+          {
+            "url": "https://raw.githubusercontent.com/BradyStephenson/bible-data/main/BibleData-Place.csv",
+            "path": "BibleData-Place.csv"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/BradyStephenson/bible-data/main/BibleData-PlaceLabel.csv",
+            "path": "BibleData-PlaceLabel.csv"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/BradyStephenson/bible-data/main/BibleData-PlaceVerse.csv",
+            "path": "BibleData-PlaceVerse.csv"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tbesh",
+      "title": "TBESH — Translators Brief Lexicon of Extended Strongs (Hebrew)",
+      "kind": "lexicon",
+      "license": "CC-BY-4.0",
+      "attribution": "STEPBible / Tyndale House Cambridge (CC BY 4.0); abridged BDB lineage noted upstream",
+      "source": "https://github.com/STEPBible/STEPBible-Data",
+      "wave": 2,
+      "acquire": {
+        "type": "files",
+        "files": [
+          {
+            "url": "https://raw.githubusercontent.com/STEPBible/STEPBible-Data/master/Lexicons/TBESH%20-%20Translators%20Brief%20lexicon%20of%20Extended%20Strongs%20for%20Hebrew%20-%20STEPBible.org%20CC%20BY.txt",
+            "path": "TBESH.txt"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tbesg",
+      "title": "TBESG — Translators Brief Lexicon of Extended Strongs (Greek)",
+      "kind": "lexicon",
+      "license": "CC-BY-4.0",
+      "attribution": "STEPBible / Tyndale House Cambridge (CC BY 4.0); Abbott-Smith lineage noted upstream",
+      "source": "https://github.com/STEPBible/STEPBible-Data",
+      "wave": 2,
+      "acquire": {
+        "type": "files",
+        "files": [
+          {
+            "url": "https://raw.githubusercontent.com/STEPBible/STEPBible-Data/master/Lexicons/TBESG%20-%20Translators%20Brief%20lexicon%20of%20Extended%20Strongs%20for%20Greek%20-%20STEPBible.org%20CC%20BY.txt",
+            "path": "TBESG.txt"
+          }
+        ]
+      }
+    },
+    {
+      "id": "torrey",
+      "title": "Torrey's New Topical Textbook",
+      "kind": "topical",
+      "license": "public-domain",
+      "attribution": "R. A. Torrey; text via Christian Classics Ethereal Library",
+      "source": "https://www.ccel.org/ccel/torrey/ttt",
+      "wave": 2,
+      "acquire": {
+        "type": "files",
+        "files": [
+          {
+            "url": "https://www.ccel.org/ccel/torrey/ttt/cache/ttt.txt",
+            "path": "ttt.txt"
+          }
+        ]
+      }
+    },
+    {
+      "id": "matthew-henry",
+      "title": "Matthew Henry Commentary on the Whole Bible",
+      "kind": "commentary",
+      "license": "CC0-1.0",
+      "attribution": "Matthew Henry (public domain); markdown edition lyteword/mhenry-complete (CC0-1.0)",
+      "source": "https://github.com/lyteword/mhenry-complete",
+      "wave": 2,
+      "acquire": {
+        "type": "zip",
+        "url": "https://codeload.github.com/lyteword/mhenry-complete/zip/refs/heads/main",
+        "strip_prefix": "mhenry-complete-main"
+      }
+    },
+    {
+      "id": "jfb",
+      "title": "Jamieson-Fausset-Brown Commentary Critical and Explanatory",
+      "kind": "commentary",
+      "license": "public-domain",
+      "attribution": "Robert Jamieson, A. R. Fausset, David Brown 1871; text via CCEL",
+      "source": "https://www.ccel.org/ccel/jamieson/jfb",
+      "wave": 2,
+      "acquire": {
+        "type": "files",
+        "files": [
+          {
+            "url": "https://www.ccel.org/ccel/jamieson/jfb/cache/jfb.txt",
+            "path": "jfb.txt"
+          }
+        ]
+      }
+    },
+    {
+      "id": "barnes",
+      "title": "Barnes' Notes on the New Testament",
+      "kind": "commentary",
+      "license": "public-domain",
+      "attribution": "Albert Barnes; text via CCEL (New Testament Notes)",
+      "source": "https://ccel.org/ccel/barnes/ntnotes/ntnotes",
+      "wave": 2,
+      "acquire": {
+        "type": "files",
+        "files": [
+          {
+            "url": "https://www.ccel.org/ccel/barnes/ntnotes/cache/ntnotes.txt",
+            "path": "ntnotes.txt"
+          }
+        ]
+      }
+    }
+  ],
+  "notes": [
+    "Robinson/Packard morphology code dictionaries deferred (CrossWire CC BY-SA modules; no clean text export wired yet).",
+    "Barnes source is CCEL New Testament Notes (partial NT coverage vs full multi-volume Barnes set).",
+    "Thumbnail images from OpenBible geocoding are intentionally not acquired."
+  ]
+}

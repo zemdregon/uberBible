@@ -1,0 +1,164 @@
+{
+  "generated": "2026-08-01T22:34:34.097Z",
+  "note": "derived/study holds processed study-material exports (separate from verse Bibles).",
+  "formats": {
+    "jsonl": {
+      "dir": "derived/study/jsonl",
+      "works": {
+        "strongs-hebrew": {
+          "id": "strongs-hebrew",
+          "status": "ok",
+          "records": 8674,
+          "path": "derived/study/jsonl/strongs-hebrew.jsonl",
+          "kind": "lexicon",
+          "license": "public-domain",
+          "title": "Strong's Hebrew Dictionary"
+        },
+        "strongs-greek": {
+          "id": "strongs-greek",
+          "status": "ok",
+          "records": 5624,
+          "path": "derived/study/jsonl/strongs-greek.jsonl",
+          "kind": "lexicon",
+          "license": "public-domain",
+          "title": "Strong's Greek Dictionary"
+        },
+        "hebrew-lexicon": {
+          "id": "hebrew-lexicon",
+          "status": "ok",
+          "records": 8674,
+          "path": "derived/study/jsonl/hebrew-lexicon.jsonl",
+          "kind": "lexicon",
+          "license": "CC-BY-4.0",
+          "title": "Open Scriptures Hebrew Lexicon (Strong + BDB index)"
+        },
+        "openbible-crossrefs": {
+          "id": "openbible-crossrefs",
+          "status": "ok",
+          "records": 29364,
+          "path": "derived/study/jsonl/openbible-crossrefs.jsonl",
+          "kind": "crossref",
+          "license": "CC-BY",
+          "title": "OpenBible Cross References (TSK-derived)"
+        },
+        "easton": {
+          "id": "easton",
+          "status": "ok",
+          "records": 3962,
+          "path": "derived/study/jsonl/easton.jsonl",
+          "kind": "dictionary",
+          "license": "public-domain",
+          "title": "Easton's Bible Dictionary (1897)"
+        },
+        "smith": {
+          "id": "smith",
+          "status": "ok",
+          "records": 4488,
+          "path": "derived/study/jsonl/smith.jsonl",
+          "kind": "dictionary",
+          "license": "public-domain",
+          "title": "Smith's Bible Dictionary (1863)"
+        },
+        "hitchcock": {
+          "id": "hitchcock",
+          "status": "ok",
+          "records": 2619,
+          "path": "derived/study/jsonl/hitchcock.jsonl",
+          "kind": "dictionary",
+          "license": "public-domain",
+          "title": "Hitchcock's Bible Names Dictionary (1869)"
+        },
+        "nave": {
+          "id": "nave",
+          "status": "ok",
+          "records": 5319,
+          "path": "derived/study/jsonl/nave.jsonl",
+          "kind": "topical",
+          "license": "CC-BY-4.0",
+          "title": "Nave's Topical Bible"
+        },
+        "openbible-geo": {
+          "id": "openbible-geo",
+          "status": "ok",
+          "records": 2938,
+          "path": "derived/study/jsonl/openbible-geo.jsonl",
+          "kind": "gazetteer",
+          "license": "CC-BY-4.0",
+          "title": "OpenBible Bible Geocoding Data"
+        },
+        "bible-people": {
+          "id": "bible-people",
+          "status": "ok",
+          "records": 3009,
+          "path": "derived/study/jsonl/bible-people.jsonl",
+          "kind": "gazetteer",
+          "license": "CC-BY-4.0",
+          "title": "Bible People Gazetteer"
+        },
+        "bible-places": {
+          "id": "bible-places",
+          "status": "ok",
+          "records": 118,
+          "path": "derived/study/jsonl/bible-places.jsonl",
+          "kind": "gazetteer",
+          "license": "CC-BY-4.0",
+          "title": "Bible Places Gazetteer"
+        },
+        "tbesh": {
+          "id": "tbesh",
+          "status": "ok",
+          "records": 11682,
+          "path": "derived/study/jsonl/tbesh.jsonl",
+          "kind": "lexicon",
+          "license": "CC-BY-4.0",
+          "title": "TBESH — Translators Brief Lexicon of Extended Strongs (Hebrew)"
+        },
+        "tbesg": {
+          "id": "tbesg",
+          "status": "ok",
+          "records": 11035,
+          "path": "derived/study/jsonl/tbesg.jsonl",
+          "kind": "lexicon",
+          "license": "CC-BY-4.0",
+          "title": "TBESG — Translators Brief Lexicon of Extended Strongs (Greek)"
+        },
+        "torrey": {
+          "id": "torrey",
+          "status": "ok",
+          "records": 672,
+          "path": "derived/study/jsonl/torrey.jsonl",
+          "kind": "topical",
+          "license": "public-domain",
+          "title": "Torrey's New Topical Textbook"
+        },
+        "matthew-henry": {
+          "id": "matthew-henry",
+          "status": "ok",
+          "records": 28077,
+          "path": "derived/study/jsonl/matthew-henry.jsonl",
+          "kind": "commentary",
+          "license": "CC0-1.0",
+          "title": "Matthew Henry Commentary on the Whole Bible"
+        },
+        "jfb": {
+          "id": "jfb",
+          "status": "ok",
+          "records": 628,
+          "path": "derived/study/jsonl/jfb.jsonl",
+          "kind": "commentary",
+          "license": "public-domain",
+          "title": "Jamieson-Fausset-Brown Commentary Critical and Explanatory"
+        },
+        "barnes": {
+          "id": "barnes",
+          "status": "ok",
+          "records": 225,
+          "path": "derived/study/jsonl/barnes.jsonl",
+          "kind": "commentary",
+          "license": "public-domain",
+          "title": "Barnes' Notes on the New Testament"
+        }
+      }
+    }
+  }
+}

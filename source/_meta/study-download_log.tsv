@@ -1,0 +1,18 @@
+id	title	status	kind	license	bytes	path
+strongs-hebrew	Strong's Hebrew Dictionary	ok	lexicon	public-domain	1456344	source/study/strongs-hebrew
+strongs-greek	Strong's Greek Dictionary	ok	lexicon	public-domain	989987	source/study/strongs-greek
+hebrew-lexicon	Open Scriptures Hebrew Lexicon (Strong + BDB index)	ok	lexicon	CC-BY-4.0	7442887	source/study/hebrew-lexicon
+openbible-crossrefs	OpenBible Cross References (TSK-derived)	ok	crossref	CC-BY	8301787	source/study/openbible-crossrefs
+easton	Easton's Bible Dictionary (1897)	ok	dictionary	public-domain	5768829	source/study/easton
+smith	Smith's Bible Dictionary (1863)	ok	dictionary	public-domain	4905397	source/study/smith
+hitchcock	Hitchcock's Bible Names Dictionary (1869)	ok	dictionary	public-domain	618953	source/study/hitchcock
+nave	Nave's Topical Bible	ok	topical	CC-BY-4.0	1461993	source/study/nave
+openbible-geo	OpenBible Bible Geocoding Data	ok	gazetteer	CC-BY-4.0	14930698	source/study/openbible-geo
+bible-people	Bible People Gazetteer	ok	gazetteer	CC-BY-4.0	3481420	source/study/bible-people
+bible-places	Bible Places Gazetteer	ok	gazetteer	CC-BY-4.0	151766	source/study/bible-places
+tbesh	TBESH — Translators Brief Lexicon of Extended Strongs (Hebrew)	ok	lexicon	CC-BY-4.0	3288045	source/study/tbesh
+tbesg	TBESG — Translators Brief Lexicon of Extended Strongs (Greek)	ok	lexicon	CC-BY-4.0	4736912	source/study/tbesg
+torrey	Torrey's New Topical Textbook	ok	topical	public-domain	5129133	source/study/torrey
+matthew-henry	Matthew Henry Commentary on the Whole Bible	ok	commentary	CC0-1.0	40477073	source/study/matthew-henry
+jfb	Jamieson-Fausset-Brown Commentary Critical and Explanatory	ok	commentary	public-domain	22558402	source/study/jfb
+barnes	Barnes' Notes on the New Testament	ok	commentary	public-domain	23042791	source/study/barnes

@@ -1,0 +1,48 @@
+uberBible study materials
+=========================
+
+Public-domain and CC BY / CC BY-SA Bible study materials (lexicons, cross-references, dictionaries, topical works, commentaries, gazetteers). Separate from verse Bible corpus.
+
+Generated: 2026-08-01T22:34:34.122Z
+Works in catalog: 17
+
+## Notes
+- Robinson/Packard morphology code dictionaries deferred (CrossWire CC BY-SA modules; no clean text export wired yet).
+- Barnes source is CCEL New Testament Notes (partial NT coverage vs full multi-volume Barnes set).
+- Thumbnail images from OpenBible geocoding are intentionally not acquired.
+
+## Works
+- strongs-hebrew: Strong's Hebrew Dictionary [lexicon] (public-domain) — ok, 8674 records
+  source: https://github.com/openscriptures/strongs
+- strongs-greek: Strong's Greek Dictionary [lexicon] (public-domain) — ok, 5624 records
+  source: https://github.com/openscriptures/strongs
+- hebrew-lexicon: Open Scriptures Hebrew Lexicon (Strong + BDB index) [lexicon] (CC-BY-4.0) — ok, 8674 records
+  source: https://github.com/openscriptures/HebrewLexicon
+- openbible-crossrefs: OpenBible Cross References (TSK-derived) [crossref] (CC-BY) — ok, 29364 records
+  source: https://www.openbible.info/labs/cross-references/
+- easton: Easton's Bible Dictionary (1897) [dictionary] (public-domain) — ok, 3962 records
+  source: https://github.com/neuu-org/bible-dictionary-dataset
+- smith: Smith's Bible Dictionary (1863) [dictionary] (public-domain) — ok, 4488 records
+  source: https://github.com/neuu-org/bible-dictionary-dataset
+- hitchcock: Hitchcock's Bible Names Dictionary (1869) [dictionary] (public-domain) — ok, 2619 records
+  source: https://github.com/neuu-org/bible-dictionary-dataset
+- nave: Nave's Topical Bible [topical] (CC-BY-4.0) — ok, 5319 records
+  source: https://github.com/BradyStephenson/bible-data
+- openbible-geo: OpenBible Bible Geocoding Data [gazetteer] (CC-BY-4.0) — ok, 2938 records
+  source: https://github.com/openbibleinfo/Bible-Geocoding-Data
+- bible-people: Bible People Gazetteer [gazetteer] (CC-BY-4.0) — ok, 3009 records
+  source: https://github.com/BradyStephenson/bible-data
+- bible-places: Bible Places Gazetteer [gazetteer] (CC-BY-4.0) — ok, 118 records
+  source: https://github.com/BradyStephenson/bible-data
+- tbesh: TBESH — Translators Brief Lexicon of Extended Strongs (Hebrew) [lexicon] (CC-BY-4.0) — ok, 11682 records
+  source: https://github.com/STEPBible/STEPBible-Data
+- tbesg: TBESG — Translators Brief Lexicon of Extended Strongs (Greek) [lexicon] (CC-BY-4.0) — ok, 11035 records
+  source: https://github.com/STEPBible/STEPBible-Data
+- torrey: Torrey's New Topical Textbook [topical] (public-domain) — ok, 672 records
+  source: https://www.ccel.org/ccel/torrey/ttt
+- matthew-henry: Matthew Henry Commentary on the Whole Bible [commentary] (CC0-1.0) — ok, 28077 records
+  source: https://github.com/lyteword/mhenry-complete
+- jfb: Jamieson-Fausset-Brown Commentary Critical and Explanatory [commentary] (public-domain) — ok, 628 records
+  source: https://www.ccel.org/ccel/jamieson/jfb
+- barnes: Barnes' Notes on the New Testament [commentary] (public-domain) — ok, 225 records
+  source: https://ccel.org/ccel/barnes/ntnotes/ntnotes

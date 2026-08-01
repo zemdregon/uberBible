@@ -1,6 +1,7 @@
 node_modules/
 .qdrant/
 derived/md/*/
+derived/study/md/*/
 docs/
 site/
 mkdocs.yml

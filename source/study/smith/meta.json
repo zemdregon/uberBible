@@ -1,0 +1,11 @@
+{
+  "id": "smith",
+  "title": "Smith's Bible Dictionary (1863)",
+  "kind": "dictionary",
+  "license": "public-domain",
+  "attribution": "William Smith 1863; structured data via neuu-org/bible-dictionary-dataset (CC BY 4.0 packaging)",
+  "source": "https://github.com/neuu-org/bible-dictionary-dataset",
+  "acquired": "2026-08-01T22:31:34.059Z",
+  "status": "ok",
+  "bytes": 4905397
+}

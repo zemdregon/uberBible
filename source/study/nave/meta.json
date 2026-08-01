@@ -1,0 +1,11 @@
+{
+  "id": "nave",
+  "title": "Nave's Topical Bible",
+  "kind": "topical",
+  "license": "CC-BY-4.0",
+  "attribution": "Orville J. Nave (public domain text); CSV packaging Brady Stephenson CC BY 4.0",
+  "source": "https://github.com/BradyStephenson/bible-data",
+  "acquired": "2026-08-01T22:31:37.678Z",
+  "status": "ok",
+  "bytes": 1461993
+}

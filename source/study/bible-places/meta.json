@@ -1,0 +1,11 @@
+{
+  "id": "bible-places",
+  "title": "Bible Places Gazetteer",
+  "kind": "gazetteer",
+  "license": "CC-BY-4.0",
+  "attribution": "Brady Stephenson bible-data (CC BY 4.0)",
+  "source": "https://github.com/BradyStephenson/bible-data",
+  "acquired": "2026-08-01T22:31:39.071Z",
+  "status": "ok",
+  "bytes": 151766
+}

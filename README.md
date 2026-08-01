@@ -1,6 +1,6 @@
 # uberBible
 
-English public-domain Protestant Christian Bibles plus original-language texts (Hebrew OT, Greek NT/LXX, Coptic).
+English public-domain and Creative Commons (CC BY / CC BY-SA) Protestant Christian Bibles plus original-language texts (Hebrew OT, Greek NT/LXX, Coptic).
 
 Non-English modern translations are not included. Catholic editions (Douay-Rheims, Vulgate, WEB Catholic, Petrus Canisius) and Jewish-specific translations (JPS, Leeser, Targum Onkelos) are excluded.
 
@@ -9,10 +9,14 @@ Non-English modern translations are not included. Catholic editions (Douay-Rheim
 | Path | Role |
 |------|------|
 | [`source/`](source/) | Raw downloads (immutable archive). Prefer USFM under `source/ebible/*/usfm/`. |
+| [`source/study/`](source/study/) | Study materials raw archive (lexicons, dictionaries, cross-refs, commentaries, gazetteers). |
 | [`derived/`](derived/) | **Processed exports, keyed by format** |
 | [`derived/jsonl/`](derived/jsonl/) | Verse-level JSONL (normalize step). |
+| [`derived/study/jsonl/`](derived/study/jsonl/) | Study-material JSONL (separate from verses). |
 | [`derived/md/`](derived/md/) | Chapter Markdown trees (`{id}/{Book}/{NN}.md`). Generate locally; gitignored (large). |
-| [`derived/manifest.json`](derived/manifest.json) | What was built for each format. |
+| [`derived/study/md/`](derived/study/md/) | Study Markdown trees (gitignored). |
+| [`derived/manifest.json`](derived/manifest.json) | What was built for verse formats. |
+| [`derived/study/manifest.json`](derived/study/manifest.json) | What was built for study formats. |
 | [`scripts/`](scripts/) | Normalize, MD export, site staging, optional vector ingest. |
 | [`mkdocs.base.yml`](mkdocs.base.yml) | MkDocs Material config (nav generated at stage time). |
 
@@ -23,7 +27,9 @@ Embeddings / Qdrant are **one consumer** of `derived/jsonl/`. The project goal i
 ```
 source/ebible/.../usfm  →  scripts/normalize-usfm.js  →  derived/jsonl/*.jsonl
 derived/jsonl           →  scripts/export-md.js       →  derived/md/{id}/{Book}/{NN}.md
-derived/md              →  scripts/prepare-docs-dir.sh → docs/ + mkdocs.yml → site/ (Pages)
+source/study/{id}       →  scripts/normalize-study.js →  derived/study/jsonl/*.jsonl
+derived/study/jsonl     →  scripts/export-study-md.js →  derived/study/md/{id}/…
+derived/md (+ study/md) →  scripts/prepare-docs-dir.sh → docs/ + mkdocs.yml → site/ (Pages)
 derived/jsonl           →  scripts/ingest-qdrant.js   →  local Ollama + Qdrant  (optional)
 ```
 
@@ -54,6 +60,8 @@ Each line in `derived/jsonl/{id}.jsonl`:
   }
 }
 ```
+
+CC BY / CC BY-SA texts use `"cc-by"` / `"cc-by-sa"` in `tags` (and the license string in `meta.license`) instead of `"public-domain"`.
 
 ## Export Markdown (one file per chapter)
 
@@ -89,7 +97,25 @@ mkdocs serve                             # http://127.0.0.1:8000
 
 CI: [`.github/workflows/pages.yml`](.github/workflows/pages.yml) exports all JSONL→MD, stages, builds, and deploys on push to `main`.
 
-Global nav lists **translation indexes only**; chapters are reached via Contents links and search (`omitted_files: ignore`).
+Global nav lists translation indexes plus a **Study** section; chapters/entries are reached via Contents links and search (`omitted_files: ignore`).
+
+## Study materials (separate pipeline)
+
+Public-domain and CC BY / CC BY-SA reference works live under `source/study/` and normalize to `derived/study/jsonl/` — never mixed into verse JSONL.
+
+Catalog: [`source/_meta/study-catalog.json`](source/_meta/study-catalog.json) · index: [`source/_meta/STUDY_INDEX.txt`](source/_meta/STUDY_INDEX.txt)
+
+```bash
+# Download raw study sources (wave 1 = lexicons/dicts/xrefs/gazetteers; wave 2 = STEPBible + commentaries + Torrey)
+node scripts/acquire-study.js --wave 1
+node scripts/acquire-study.js --wave 2
+# or: node scripts/acquire-study.js --all
+
+node scripts/normalize-study.js --all
+node scripts/export-study-md.js --all
+```
+
+Includes Strong’s Hebrew/Greek, Open Scriptures Hebrew Lexicon, STEPBible TBESH/TBESG, OpenBible cross-references, Easton/Smith/Hitchcock dictionaries, Nave & Torrey topical works, Matthew Henry / JFB / Barnes commentaries, OpenBible geocoding, and Brady Stephenson people/places gazetteers. See each work’s `meta.json` for license and attribution.
 
 ## Optional: local embeddings → Qdrant
 
@@ -110,4 +136,4 @@ Env overrides: `OLLAMA_HOST`, `OLLAMA_EMBED_MODEL`, `QDRANT_URL`, `QDRANT_COLLEC
 
 ## Source notes
 
-See [`source/_meta/INDEX.txt`](source/_meta/INDEX.txt) for the full translation list.
+See [`source/_meta/INDEX.txt`](source/_meta/INDEX.txt) for the full translation list and [`source/_meta/STUDY_INDEX.txt`](source/_meta/STUDY_INDEX.txt) for study materials.

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "englsv",
+    "lang": "English",
+    "title": "Literal Standard Version",
+    "year": "2020",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "id": "engfbv",
+    "lang": "English",
+    "title": "Free Bible Version",
+    "year": "2018",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "id": "eng-t4t",
+    "lang": "English",
+    "title": "Translation for Translators",
+    "year": "2008-2017",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "id": "engULB",
+    "lang": "English",
+    "title": "Unlocked Literal Bible",
+    "year": "2017",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "id": "engtcent",
+    "lang": "English",
+    "title": "Text-Critical English New Testament",
+    "year": "2022",
+    "license": "CC BY 4.0"
+  }
+]
