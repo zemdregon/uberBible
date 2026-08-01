@@ -1,5 +1,4 @@
 node_modules/
-derived/jsonl/*.jsonl
 .qdrant/
 .DS_Store
 *.log
