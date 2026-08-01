@@ -1,0 +1,5 @@
+# Emacs backup files
+*~
+*.pyc
+__pycache__
+.Rproj.user

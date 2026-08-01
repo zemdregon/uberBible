@@ -1,0 +1,105 @@
+id	title	status	format	bytes	path
+bea	Beaver Mark	ok	usfm	50408	/home/ender/Projects/uberBible/source/ebible/bea/usfm
+awk	Awabakal Luke	ok	usfm	68350	/home/ender/Projects/uberBible/source/ebible/awk/usfm
+bla	Blackfoot Matthew	ok	usfm	67735	/home/ender/Projects/uberBible/source/ebible/bla/usfm
+arp	Arapaho Luke	ok	usfm	66980	/home/ender/Projects/uberBible/source/ebible/arp/usfm
+breBRG	Breton Gospels	ok	usfm	172949	/home/ender/Projects/uberBible/source/ebible/breBRG/usfm
+arb-vd	Arabic Van Dyck Bible	ok	usfm	1744246	/home/ender/Projects/uberBible/source/ebible/arb-vd/usfm
+mya	Burmese Common Language Bible	ok	usfm	2633581	/home/ender/Projects/uberBible/source/ebible/mya/usfm
+cha	Chamorro Gospels, Acts, and Psalms	ok	usfm	285512	/home/ender/Projects/uberBible/source/ebible/cha/usfm
+myajvb	Judson Burmese Bible	ok	usfm	2971368	/home/ender/Projects/uberBible/source/ebible/myajvb/usfm
+cekak	Asang Khongca Bible	ok	usfm	1460310	/home/ender/Projects/uberBible/source/ebible/cekak/usfm
+hltmcsb	Matupi Chin Standard Bible 2019	ok	usfm	3091212	/home/ender/Projects/uberBible/source/ebible/hltmcsb/usfm
+hlt	Matupi Chin Standard Bible w/ Strongs	ok	usfm	2542957	/home/ender/Projects/uberBible/source/ebible/hlt/usfm
+cmn-cu89s	Chinese Union Version (simplified)	ok	usfm	1429061	/home/ender/Projects/uberBible/source/ebible/cmn-cu89s/usfm
+copbhc	Coptic Boharic NT	ok	usfm	438775	/home/ender/Projects/uberBible/source/ebible/copbhc/usfm
+cmnswcb	World Chinese Bible	ok	usfm	1464377	/home/ender/Projects/uberBible/source/ebible/cmnswcb/usfm
+copcnt	Coptic NT	ok	usfm	463058	/home/ender/Projects/uberBible/source/ebible/copcnt/usfm
+cmn-cu89t	Chinese Union Version (traditional)	ok	usfm	1431737	/home/ender/Projects/uberBible/source/ebible/cmn-cu89t/usfm
+hrv	Croatian Bible	ok	usfm	1606316	/home/ender/Projects/uberBible/source/ebible/hrv/usfm
+dif	Dieri NT	ok	usfm	346840	/home/ender/Projects/uberBible/source/ebible/dif/usfm
+ces1613	Czech Kralická Bible 1613	ok	usfm	1500276	/home/ender/Projects/uberBible/source/ebible/ces1613/usfm
+nld	Dutch Bible 1917	ok	usfm	1475417	/home/ender/Projects/uberBible/source/ebible/nld/usfm
+eng-asv	American Standard Version (1901)	ok	usfm	2875147	/home/ender/Projects/uberBible/source/ebible/eng-asv/usfm
+eng-uk-lxx2012	British English Septuagint 2012	ok	usfm	1394911	/home/ender/Projects/uberBible/source/ebible/eng-uk-lxx2012/usfm
+engBBE	Bible in Basic English	ok	usfm	2857395	/home/ender/Projects/uberBible/source/ebible/engBBE/usfm
+engasvbt	ASV Byzantine Text	ok	usfm	3209390	/home/ender/Projects/uberBible/source/ebible/engasvbt/usfm
+eng-Brenton	Brenton English Septuagint	ok	usfm	1442061	/home/ender/Projects/uberBible/source/ebible/eng-Brenton/usfm
+engDBY	Darby Translation	ok	usfm	2797703	/home/ender/Projects/uberBible/source/ebible/engDBY/usfm
+engbsb	English Berean Standard Bible	ok	usfm	3021299	/home/ender/Projects/uberBible/source/ebible/engbsb/usfm
+enggnv	Geneva Bible 1599	ok	usfm	1409822	/home/ender/Projects/uberBible/source/ebible/enggnv/usfm
+eng-kjv2006	King James Version	ok	usfm	2465876	/home/ender/Projects/uberBible/source/ebible/eng-kjv2006/usfm
+eng-kjv	King James Version + Apocrypha	ok	usfm	2770418	/home/ender/Projects/uberBible/source/ebible/eng-kjv/usfm
+engkjvcpb	KJV Cambridge Paragraph	ok	usfm	1797348	/home/ender/Projects/uberBible/source/ebible/engkjvcpb/usfm
+eng-lxx2012	LXX2012 U. S. English	ok	usfm	1394473	/home/ender/Projects/uberBible/source/ebible/eng-lxx2012/usfm
+engnoy	Noyes Bible	ok	usfm	818592	/home/ender/Projects/uberBible/source/ebible/engnoy/usfm
+engmsb	Majority Standard BIble	ok	usfm	2789801	/home/ender/Projects/uberBible/source/ebible/engmsb/usfm
+engoebus	Open English Bible (US)	ok	usfm	1285044	/home/ender/Projects/uberBible/source/ebible/engoebus/usfm
+engtnt	Tyndale NT	ok	usfm	371782	/home/ender/Projects/uberBible/source/ebible/engtnt/usfm
+engoebcw	Open English Bible (Commonwealth)	ok	usfm	1284693	/home/ender/Projects/uberBible/source/ebible/engoebcw/usfm
+englxxup	Updated Brenton English Septuagint	ok	usfm	1352477	/home/ender/Projects/uberBible/source/ebible/englxxup/usfm
+eng-rv	Revised Version	ok	usfm	3165835	/home/ender/Projects/uberBible/source/ebible/eng-rv/usfm
+engwebster	Webster Bible	ok	usfm	1424047	/home/ender/Projects/uberBible/source/ebible/engwebster/usfm
+engwebp	World English Bible	ok	usfm	2903202	/home/ender/Projects/uberBible/source/ebible/engwebp/usfm
+engwebpb	World English Bible British Edition	ok	usfm	2907375	/home/ender/Projects/uberBible/source/ebible/engwebpb/usfm
+eng-webbe	World English Bible British Edition with Deuterocanon	ok	usfm	3267149	/home/ender/Projects/uberBible/source/ebible/eng-webbe/usfm
+engwebu	World English Bible Updated	ok	usfm	3261947	/home/ender/Projects/uberBible/source/ebible/engwebu/usfm
+eng-web	World English Bible Classic	ok	usfm	3249017	/home/ender/Projects/uberBible/source/ebible/eng-web/usfm
+engwmb	World Messianic Bible	ok	usfm	2890266	/home/ender/Projects/uberBible/source/ebible/engwmb/usfm
+engWycliffe	Wycliffe Bible portions	ok	usfm	421316	/home/ender/Projects/uberBible/source/ebible/engWycliffe/usfm
+engwmbb	World Messianic Bible British Edition	ok	usfm	2890772	/home/ender/Projects/uberBible/source/ebible/engwmbb/usfm
+engylt	Young's Literal Translation	ok	usfm	1385550	/home/ender/Projects/uberBible/source/ebible/engylt/usfm
+epo	Esperanto Bible	ok	usfm	1337796	/home/ender/Projects/uberBible/source/ebible/epo/usfm
+kld	KAMILAROI SAYINGS	ok	usfm	26841	/home/ender/Projects/uberBible/source/ebible/kld/usfm
+fraLSG	French Louis Segond 1910 Bible	ok	usfm	3471567	/home/ender/Projects/uberBible/source/ebible/fraLSG/usfm
+frajnd	French: Bible J.N. Darby	ok	usfm	1644186	/home/ender/Projects/uberBible/source/ebible/frajnd/usfm
+frasbl	French Free Holy Bible for the World	ok	usfm	3503898	/home/ender/Projects/uberBible/source/ebible/frasbl/usfm
+fra_fob	French Ostervald Bible	ok	usfm	2997774	/home/ender/Projects/uberBible/source/ebible/fra_fob/usfm
+deu1912	German Luther Bible 1912	ok	usfm	2499045	/home/ender/Projects/uberBible/source/ebible/deu1912/usfm
+deutkw	German Textbibel	ok	usfm	1605326	/home/ender/Projects/uberBible/source/ebible/deutkw/usfm
+deuelo	German Unrevised Elberfelder Bible	ok	usfm	1504592	/home/ender/Projects/uberBible/source/ebible/deuelo/usfm
+grcbrent	Brenton Septuagint	ok	usfm	1728472	/home/ender/Projects/uberBible/source/ebible/grcbrent/usfm
+grcbyz	Byzantine Greek  NT	ok	usfm	810473	/home/ender/Projects/uberBible/source/ebible/grcbyz/usfm
+grcmt	Greek Majority Text NT	ok	usfm	866145	/home/ender/Projects/uberBible/source/ebible/grcmt/usfm
+grclxx	SEPTUAGINTA	ok	usfm	1674679	/home/ender/Projects/uberBible/source/ebible/grclxx/usfm
+grcsr	Solid Rock Greek New Testament	ok	usfm	1065318	/home/ender/Projects/uberBible/source/ebible/grcsr/usfm
+grctcgnt	Text-Critical Greek NT	ok	usfm	1046857	/home/ender/Projects/uberBible/source/ebible/grctcgnt/usfm
+grctr	Textus Receptus	ok	usfm	787287	/home/ender/Projects/uberBible/source/ebible/grctr/usfm
+grc-tisch	Tischendorf Greek NT	ok	usfm	1218957	/home/ender/Projects/uberBible/source/ebible/grc-tisch/usfm
+kky	Gugu Yimidhirr Matthew Sample	ok	usfm	81589	/home/ender/Projects/uberBible/source/ebible/kky/usfm
+hat	Haitian Creole Bible 1985	ok	usfm	1429620	/home/ender/Projects/uberBible/source/ebible/hat/usfm
+haw1868	Hawaiian Bible 1868	ok	usfm	1351583	/home/ender/Projects/uberBible/source/ebible/haw1868/usfm
+hbo	Hebrew Masoretic OT	ok	usfm	1482191	/home/ender/Projects/uberBible/source/ebible/hbo/usfm
+heb	Modern Hebrew Bible	ok	usfm	1077434	/home/ender/Projects/uberBible/source/ebible/heb/usfm
+hebsg	Salkinson Hebrew NT	ok	usfm	468284	/home/ender/Projects/uberBible/source/ebible/hebsg/usfm
+hboWLC	Westminster Leningrad Codex Hebrew OT	ok	usfm	2218423	/home/ender/Projects/uberBible/source/ebible/hboWLC/usfm
+ita1885	Italian Diodati Bible	ok	usfm	1928058	/home/ender/Projects/uberBible/source/ebible/ita1885/usfm
+ita1927	Italian Riveduta Bible	ok	usfm	1494605	/home/ender/Projects/uberBible/source/ebible/ita1927/usfm
+jpnm	Japanese Freedom Bible	ok	usfm	1543995	/home/ender/Projects/uberBible/source/ebible/jpnm/usfm
+jpn1965	New Japanese NT	ok	usfm	436115	/home/ender/Projects/uberBible/source/ebible/jpn1965/usfm
+kor	Korean Bible 1910	ok	usfm	1416348	/home/ender/Projects/uberBible/source/ebible/kor/usfm
+kos	Kosraean Bible	ok	usfm	1536760	/home/ender/Projects/uberBible/source/ebible/kos/usfm
+ulk1902	Meriam Mir Bible	ok	usfm	149017	/home/ender/Projects/uberBible/source/ebible/ulk1902/usfm
+nay	Ngarrindjeri Scriptures	ok	usfm	37803	/home/ender/Projects/uberBible/source/ebible/nay/usfm
+pesOPV	Old Persion Version Bible	ok	usfm	1552214	/home/ender/Projects/uberBible/source/ebible/pesOPV/usfm
+pon-pdn	Pohnpeian NT & Psalms, new alphabet	ok	usfm	389626	/home/ender/Projects/uberBible/source/ebible/pon-pdn/usfm
+pon	Pohnpeian NT & Psalms, old alphabet	ok	usfm	390336	/home/ender/Projects/uberBible/source/ebible/pon/usfm
+porbrbsl	World Portuguese Bible	ok	usfm	1511770	/home/ender/Projects/uberBible/source/ebible/porbrbsl/usfm
+ron1924	Romanian Bible (Cyrillic)	ok	usfm	1734689	/home/ender/Projects/uberBible/source/ebible/ron1924/usfm
+ronbtf	Romanian BTF Bible	ok	usfm	1442195	/home/ender/Projects/uberBible/source/ebible/ronbtf/usfm
+ronbl	Romanian Free Holy Bible	ok	usfm	405033	/home/ender/Projects/uberBible/source/ebible/ronbl/usfm
+ronlsb	Romanian Free Holy Bible	FAIL	-	0	-
+russyn	Russian Synodal Bible	ok	usfm	1639185	/home/ender/Projects/uberBible/source/ebible/russyn/usfm
+srp1868	Serbian DK Bible (Cyrillic)	ok	usfm	1594624	/home/ender/Projects/uberBible/source/ebible/srp1868/usfm
+srp1865	Serbian DK Bible (Latin)	ok	usfm	1369533	/home/ender/Projects/uberBible/source/ebible/srp1865/usfm
+spaRV1909	Reina Valera 1909	ok	usfm	2384234	/home/ender/Projects/uberBible/source/ebible/spaRV1909/usfm
+spabll	Spanish BLL	ok	usfm	2908787	/home/ender/Projects/uberBible/source/ebible/spabll/usfm
+spablm	Spanish Free Bible for the World	ok	usfm	2898021	/home/ender/Projects/uberBible/source/ebible/spablm/usfm
+swh1850	Swahili Bible	ok	usfm	373708	/home/ender/Projects/uberBible/source/ebible/swh1850/usfm
+ton	Revised West Version	ok	usfm	1545230	/home/ender/Projects/uberBible/source/ebible/ton/usfm
+ukr1871	Ukrainian Bible by P. Kulish	ok	usfm	1730372	/home/ender/Projects/uberBible/source/ebible/ukr1871/usfm
+ukrfb	Ukrainian Freedom Bible	ok	usfm	1730073	/home/ender/Projects/uberBible/source/ebible/ukrfb/usfm
+vie1934	Vietnamese Bible 1923	ok	usfm	1517732	/home/ender/Projects/uberBible/source/ebible/vie1934/usfm
+wro	Worrorra Mark and Luke	ok	usfm	96082	/home/ender/Projects/uberBible/source/ebible/wro/usfm
+hebwlc	Hebrew OT (WLC)	ok	usfm	1466911	/home/ender/Projects/uberBible/source/ebible/hebwlc/usfm
+ronlsb	Romanian Free Holy Bible	ok	xetex	484444	/home/ender/Projects/uberBible/source/ebible/ronlsb/xetex

@@ -1,0 +1,1572 @@
+{
+  "generated": "2026-08-01T17:01:05.535Z",
+  "scope": "Public-domain Protestant Christian Bibles + original-language texts (Hebrew OT, Greek NT/LXX, Coptic). Catholic editions (Douay-Rheims, Vulgate, WEB Catholic, Petrus Canisius) and Jewish-specific translations (JPS, Leeser, Targum Onkelos) were excluded.",
+  "preferred_format": "USFM (easy to convert to Markdown)",
+  "counts": {
+    "ebible_translations": 103,
+    "ebible_with_files": 103,
+    "original_language_packages": 9
+  },
+  "excluded_from_ebible_pd_list": [
+    {
+      "id": "engDRA",
+      "reason": "Catholic (Douay-Rheims)"
+    },
+    {
+      "id": "eng-web-c",
+      "reason": "Catholic WEB edition"
+    },
+    {
+      "id": "latVUC",
+      "reason": "Latin Vulgate (Catholic)"
+    },
+    {
+      "id": "nld1939",
+      "reason": "Petrus Canisius (Catholic)"
+    },
+    {
+      "id": "engjps",
+      "reason": "Jewish Publication Society TaNaKH"
+    },
+    {
+      "id": "englee",
+      "reason": "Leeser Tanakh (Jewish)"
+    },
+    {
+      "id": "engoke",
+      "reason": "Targum Onkelos Etheridge (Jewish Aramaic)"
+    }
+  ],
+  "notes": [
+    "ronlsb only had XeTeX on eBible; ronbl is the related Romanian Free Holy Bible with USFM.",
+    "Original-language packages under originals/ include morphologically tagged editions (Nestle 1904, W-H, TR variants, Byzantine, MorphHB) in addition to plain USFM copies under ebible/.",
+    "WLC Hebrew text is public domain; Open Scriptures morphology is CC BY 4.0."
+  ],
+  "ebible": [
+    {
+      "id": "arb-vd",
+      "title": "Arabic Van Dyck Bible",
+      "language": "Arabic",
+      "year": "",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/arb-vd",
+      "bytes": 7860896,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=arb-vd"
+    },
+    {
+      "id": "arp",
+      "title": "Arapaho Luke",
+      "language": "Arapaho",
+      "year": "1903",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/arp",
+      "bytes": 198065,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=arp"
+    },
+    {
+      "id": "awk",
+      "title": "Awabakal Luke",
+      "language": "Awabakal",
+      "year": "1892",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/awk",
+      "bytes": 212007,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=awk"
+    },
+    {
+      "id": "bea",
+      "title": "Beaver Mark",
+      "language": "Beaver",
+      "year": "1886",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/bea",
+      "bytes": 124147,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=bea"
+    },
+    {
+      "id": "bla",
+      "title": "Blackfoot Matthew",
+      "language": "Blackfoot",
+      "year": "1890",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/bla",
+      "bytes": 182094,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=bla"
+    },
+    {
+      "id": "breBRG",
+      "title": "Breton Gospels",
+      "language": "Breton",
+      "year": "1827",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/breBRG",
+      "bytes": 503144,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=breBRG"
+    },
+    {
+      "id": "mya",
+      "title": "Burmese Common Language Bible",
+      "language": "Burmese",
+      "year": "2005",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/mya",
+      "bytes": 18233747,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=mya"
+    },
+    {
+      "id": "myajvb",
+      "title": "Judson Burmese Bible",
+      "language": "Burmese",
+      "year": "1840",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/myajvb",
+      "bytes": 20719836,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=myajvb"
+    },
+    {
+      "id": "cha",
+      "title": "Chamorro Gospels, Acts, and Psalms",
+      "language": "Chamorro",
+      "year": "1908",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/cha",
+      "bytes": 901727,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=cha"
+    },
+    {
+      "id": "cekak",
+      "title": "Asang Khongca Bible",
+      "language": "Chin, Eastern Khumi",
+      "year": "2019",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/cekak",
+      "bytes": 5262321,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=cekak"
+    },
+    {
+      "id": "hltmcsb",
+      "title": "Matupi Chin Standard Bible 2019",
+      "language": "Chin, Matu",
+      "year": "2019",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/hltmcsb",
+      "bytes": 17920963,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=hltmcsb"
+    },
+    {
+      "id": "hlt",
+      "title": "Matupi Chin Standard Bible w/ Strongs",
+      "language": "Chin, Matu",
+      "year": "2018-2020",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/hlt",
+      "bytes": 15749907,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=hlt"
+    },
+    {
+      "id": "cmn-cu89s",
+      "title": "Chinese Union Version (simplified)",
+      "language": "Chinese",
+      "year": "",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/cmn-cu89s",
+      "bytes": 4093140,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=cmn-cu89s"
+    },
+    {
+      "id": "cmn-cu89t",
+      "title": "Chinese Union Version (traditional)",
+      "language": "Chinese",
+      "year": "",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/cmn-cu89t",
+      "bytes": 4095282,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=cmn-cu89t"
+    },
+    {
+      "id": "cmnswcb",
+      "title": "World Chinese Bible",
+      "language": "Chinese, Mandarin",
+      "year": "2026",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/cmnswcb",
+      "bytes": 4061628,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=cmnswcb"
+    },
+    {
+      "id": "copbhc",
+      "title": "Coptic Boharic NT",
+      "language": "Coptic",
+      "year": "",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/copbhc",
+      "bytes": 2165454,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=copbhc"
+    },
+    {
+      "id": "copcnt",
+      "title": "Coptic NT",
+      "language": "Coptic",
+      "year": "",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/copcnt",
+      "bytes": 2332693,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=copcnt"
+    },
+    {
+      "id": "hrv",
+      "title": "Croatian Bible",
+      "language": "Croatian",
+      "year": "1941-1942",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/hrv",
+      "bytes": 4216324,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=hrv"
+    },
+    {
+      "id": "ces1613",
+      "title": "Czech Kralická Bible 1613",
+      "language": "Czech",
+      "year": "1579-1593",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/ces1613",
+      "bytes": 4190664,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=ces1613"
+    },
+    {
+      "id": "dif",
+      "title": "Dieri NT",
+      "language": "Dieri",
+      "year": "1897",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/dif",
+      "bytes": 1298769,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=dif"
+    },
+    {
+      "id": "nld",
+      "title": "Dutch Bible 1917",
+      "language": "Dutch",
+      "year": "1917",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/nld",
+      "bytes": 4631764,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=nld"
+    },
+    {
+      "id": "eng-asv",
+      "title": "American Standard Version (1901)",
+      "language": "English",
+      "year": "1901",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/eng-asv",
+      "bytes": 19432404,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=eng-asv"
+    },
+    {
+      "id": "engasvbt",
+      "title": "ASV Byzantine Text",
+      "language": "English",
+      "year": "",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/engasvbt",
+      "bytes": 20492146,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=engasvbt"
+    },
+    {
+      "id": "engBBE",
+      "title": "Bible in Basic English",
+      "language": "English",
+      "year": "1949, 1964",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/engBBE",
+      "bytes": 19731746,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=engBBE"
+    },
+    {
+      "id": "eng-Brenton",
+      "title": "Brenton English Septuagint",
+      "language": "English",
+      "year": "1851",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/eng-Brenton",
+      "bytes": 4587261,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=eng-Brenton"
+    },
+    {
+      "id": "eng-uk-lxx2012",
+      "title": "British English Septuagint 2012",
+      "language": "English",
+      "year": "1851, 2012",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/eng-uk-lxx2012",
+      "bytes": 4469016,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=eng-uk-lxx2012"
+    },
+    {
+      "id": "engDBY",
+      "title": "Darby Translation",
+      "language": "English",
+      "year": "1871, 1884",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/engDBY",
+      "bytes": 18844821,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=engDBY"
+    },
+    {
+      "id": "engbsb",
+      "title": "English Berean Standard Bible",
+      "language": "English",
+      "year": "2020",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/engbsb",
+      "bytes": 18185895,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=engbsb"
+    },
+    {
+      "id": "enggnv",
+      "title": "Geneva Bible 1599",
+      "language": "English",
+      "year": "1599",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/enggnv",
+      "bytes": 4486037,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=enggnv"
+    },
+    {
+      "id": "eng-kjv2006",
+      "title": "King James Version",
+      "language": "English",
+      "year": "1611, 1769",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/eng-kjv2006",
+      "bytes": 12552413,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=eng-kjv2006"
+    },
+    {
+      "id": "eng-kjv",
+      "title": "King James Version + Apocrypha",
+      "language": "English",
+      "year": "1611, 1769",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/eng-kjv",
+      "bytes": 13450728,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=eng-kjv"
+    },
+    {
+      "id": "engkjvcpb",
+      "title": "KJV Cambridge Paragraph",
+      "language": "English",
+      "year": "",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/engkjvcpb",
+      "bytes": 5881732,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=engkjvcpb"
+    },
+    {
+      "id": "eng-lxx2012",
+      "title": "LXX2012 U. S. English",
+      "language": "English",
+      "year": "1851, 2012",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/eng-lxx2012",
+      "bytes": 4465777,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=eng-lxx2012"
+    },
+    {
+      "id": "engmsb",
+      "title": "Majority Standard BIble",
+      "language": "English",
+      "year": "2024",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/engmsb",
+      "bytes": 17925300,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=engmsb"
+    },
+    {
+      "id": "engnoy",
+      "title": "Noyes Bible",
+      "language": "English",
+      "year": "1869",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/engnoy",
+      "bytes": 2420378,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=engnoy"
+    },
+    {
+      "id": "engoebcw",
+      "title": "Open English Bible (Commonwealth)",
+      "language": "English",
+      "year": "",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/engoebcw",
+      "bytes": 7711122,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=engoebcw"
+    },
+    {
+      "id": "engoebus",
+      "title": "Open English Bible (US)",
+      "language": "English",
+      "year": "",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/engoebus",
+      "bytes": 7712707,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=engoebus"
+    },
+    {
+      "id": "eng-rv",
+      "title": "Revised Version",
+      "language": "English",
+      "year": "1895",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/eng-rv",
+      "bytes": 20464236,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=eng-rv"
+    },
+    {
+      "id": "engtnt",
+      "title": "Tyndale NT",
+      "language": "English",
+      "year": "1534",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/engtnt",
+      "bytes": 1057972,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=engtnt"
+    },
+    {
+      "id": "englxxup",
+      "title": "Updated Brenton English Septuagint",
+      "language": "English",
+      "year": "1851",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/englxxup",
+      "bytes": 4414855,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=englxxup"
+    },
+    {
+      "id": "engwebster",
+      "title": "Webster Bible",
+      "language": "English",
+      "year": "1833",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/engwebster",
+      "bytes": 4627902,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=engwebster"
+    },
+    {
+      "id": "engwebp",
+      "title": "World English Bible",
+      "language": "English",
+      "year": "1997-2023",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/engwebp",
+      "bytes": 19085353,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=engwebp"
+    },
+    {
+      "id": "engwebpb",
+      "title": "World English Bible British Edition",
+      "language": "English",
+      "year": "2011-2023",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/engwebpb",
+      "bytes": 19074285,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=engwebpb"
+    },
+    {
+      "id": "eng-webbe",
+      "title": "World English Bible British Edition with Deuterocanon",
+      "language": "English",
+      "year": "2011-2024",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/eng-webbe",
+      "bytes": 20142429,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=eng-webbe"
+    },
+    {
+      "id": "eng-web",
+      "title": "World English Bible Classic",
+      "language": "English",
+      "year": "1997-2023",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/eng-web",
+      "bytes": 20005045,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=eng-web"
+    },
+    {
+      "id": "engwebu",
+      "title": "World English Bible Updated",
+      "language": "English",
+      "year": "1997-2024",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/engwebu",
+      "bytes": 20150841,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=engwebu"
+    },
+    {
+      "id": "engwmb",
+      "title": "World Messianic Bible",
+      "language": "English",
+      "year": "1997-2015",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/engwmb",
+      "bytes": 19019951,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=engwmb"
+    },
+    {
+      "id": "engwmbb",
+      "title": "World Messianic Bible British Edition",
+      "language": "English",
+      "year": "1997-2015",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/engwmbb",
+      "bytes": 19001477,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=engwmbb"
+    },
+    {
+      "id": "engWycliffe",
+      "title": "Wycliffe Bible portions",
+      "language": "English",
+      "year": "1395",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/engWycliffe",
+      "bytes": 1371292,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=engWycliffe"
+    },
+    {
+      "id": "engylt",
+      "title": "Young's Literal Translation",
+      "language": "English",
+      "year": "1862, 1898",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/engylt",
+      "bytes": 4473711,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=engylt"
+    },
+    {
+      "id": "epo",
+      "title": "Esperanto Bible",
+      "language": "Esperanto",
+      "year": "1910",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/epo",
+      "bytes": 4226701,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=epo"
+    },
+    {
+      "id": "frasbl",
+      "title": "French Free Holy Bible for the World",
+      "language": "French",
+      "year": "2022",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/frasbl",
+      "bytes": 20313676,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=frasbl"
+    },
+    {
+      "id": "fraLSG",
+      "title": "French Louis Segond 1910 Bible",
+      "language": "French",
+      "year": "1910",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/fraLSG",
+      "bytes": 20526992,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=fraLSG"
+    },
+    {
+      "id": "fra_fob",
+      "title": "French Ostervald Bible",
+      "language": "French",
+      "year": "1744",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/fra_fob",
+      "bytes": 19109809,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=fra_fob"
+    },
+    {
+      "id": "frajnd",
+      "title": "French: Bible J.N. Darby",
+      "language": "French",
+      "year": "2024",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/frajnd",
+      "bytes": 5388379,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=frajnd"
+    },
+    {
+      "id": "kld",
+      "title": "KAMILAROI SAYINGS",
+      "language": "Gamilaraay",
+      "year": "1839",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/kld",
+      "bytes": 52041,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=kld"
+    },
+    {
+      "id": "deu1912",
+      "title": "German Luther Bible 1912",
+      "language": "German, Standard",
+      "year": "1912",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/deu1912",
+      "bytes": 12089361,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=deu1912"
+    },
+    {
+      "id": "deutkw",
+      "title": "German Textbibel",
+      "language": "German, Standard",
+      "year": "1906",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/deutkw",
+      "bytes": 4701347,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=deutkw"
+    },
+    {
+      "id": "deuelo",
+      "title": "German Unrevised Elberfelder Bible",
+      "language": "German, Standard",
+      "year": "1905",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/deuelo",
+      "bytes": 4634301,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=deuelo"
+    },
+    {
+      "id": "grcbrent",
+      "title": "Brenton Septuagint",
+      "language": "Greek, Ancient",
+      "year": "1851",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/grcbrent",
+      "bytes": 7244132,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=grcbrent"
+    },
+    {
+      "id": "grcbyz",
+      "title": "Byzantine Greek  NT",
+      "language": "Greek, Ancient",
+      "year": "1904",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/grcbyz",
+      "bytes": 4850670,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=grcbyz"
+    },
+    {
+      "id": "grcmt",
+      "title": "Greek Majority Text NT",
+      "language": "Greek, Ancient",
+      "year": "2018",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/grcmt",
+      "bytes": 6891913,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=grcmt"
+    },
+    {
+      "id": "grclxx",
+      "title": "SEPTUAGINTA",
+      "language": "Greek, Ancient",
+      "year": "",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/grclxx",
+      "bytes": 7090910,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=grclxx"
+    },
+    {
+      "id": "grcsr",
+      "title": "Solid Rock Greek New Testament",
+      "language": "Greek, Ancient",
+      "year": "",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/grcsr",
+      "bytes": 6307415,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=grcsr"
+    },
+    {
+      "id": "grctcgnt",
+      "title": "Text-Critical Greek NT",
+      "language": "Greek, Ancient",
+      "year": "2018",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/grctcgnt",
+      "bytes": 5701717,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=grctcgnt"
+    },
+    {
+      "id": "grctr",
+      "title": "Textus Receptus",
+      "language": "Greek, Ancient",
+      "year": "",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/grctr",
+      "bytes": 4735695,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=grctr"
+    },
+    {
+      "id": "grc-tisch",
+      "title": "Tischendorf Greek NT",
+      "language": "Greek, Ancient",
+      "year": "",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/grc-tisch",
+      "bytes": 9445161,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=grc-tisch"
+    },
+    {
+      "id": "kky",
+      "title": "Gugu Yimidhirr Matthew Sample",
+      "language": "Guugu Yimidhirr",
+      "year": "1888",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/kky",
+      "bytes": 242794,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=kky"
+    },
+    {
+      "id": "hat",
+      "title": "Haitian Creole Bible 1985",
+      "language": "Haitian",
+      "year": "1985",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/hat",
+      "bytes": 4643460,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=hat"
+    },
+    {
+      "id": "haw1868",
+      "title": "Hawaiian Bible 1868",
+      "language": "Hawaiian",
+      "year": "1868",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/haw1868",
+      "bytes": 4927123,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=haw1868"
+    },
+    {
+      "id": "hbo",
+      "title": "Hebrew Masoretic OT",
+      "language": "Hebrew",
+      "year": "",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/hbo",
+      "bytes": 5650638,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=hbo"
+    },
+    {
+      "id": "heb",
+      "title": "Modern Hebrew Bible",
+      "language": "Hebrew",
+      "year": "1899",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/heb",
+      "bytes": 4032128,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=heb"
+    },
+    {
+      "id": "hebsg",
+      "title": "Salkinson Hebrew NT",
+      "language": "Hebrew",
+      "year": "1886",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/hebsg",
+      "bytes": 1975451,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=hebsg"
+    },
+    {
+      "id": "hboWLC",
+      "title": "Westminster Leningrad Codex Hebrew OT",
+      "language": "Hebrew",
+      "year": "",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/hboWLC",
+      "bytes": 11967685,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=hboWLC"
+    },
+    {
+      "id": "ita1885",
+      "title": "Italian Diodati Bible",
+      "language": "Italian",
+      "year": "1885",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/ita1885",
+      "bytes": 6035370,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=ita1885"
+    },
+    {
+      "id": "ita1927",
+      "title": "Italian Riveduta Bible",
+      "language": "Italian",
+      "year": "1927",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/ita1927",
+      "bytes": 4481472,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=ita1927"
+    },
+    {
+      "id": "jpnm",
+      "title": "Japanese Freedom Bible",
+      "language": "Japanese",
+      "year": "2026",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/jpnm",
+      "bytes": 5711682,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=jpnm"
+    },
+    {
+      "id": "jpn1965",
+      "title": "New Japanese NT",
+      "language": "Japanese",
+      "year": "1963, 1965",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/jpn1965",
+      "bytes": 1504291,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=jpn1965"
+    },
+    {
+      "id": "kor",
+      "title": "Korean Bible 1910",
+      "language": "Korean",
+      "year": "1900, 1910",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/kor",
+      "bytes": 4844524,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=kor"
+    },
+    {
+      "id": "kos",
+      "title": "Kosraean Bible",
+      "language": "Kosraean",
+      "year": "1928",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/kos",
+      "bytes": 4919536,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=kos"
+    },
+    {
+      "id": "ulk1902",
+      "title": "Meriam Mir Bible",
+      "language": "Meriam",
+      "year": "1902",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/ulk1902",
+      "bytes": 491333,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=ulk1902"
+    },
+    {
+      "id": "nay",
+      "title": "Ngarrindjeri Scriptures",
+      "language": "Narrinyeri",
+      "year": "1864",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/nay",
+      "bytes": 88364,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=nay"
+    },
+    {
+      "id": "pesOPV",
+      "title": "Old Persion Version Bible",
+      "language": "Persian",
+      "year": "1895",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/pesOPV",
+      "bytes": 6127049,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=pesOPV"
+    },
+    {
+      "id": "pon-pdn",
+      "title": "Pohnpeian NT & Psalms, new alphabet",
+      "language": "Pohnpeian",
+      "year": "",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/pon-pdn",
+      "bytes": 1189711,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=pon-pdn"
+    },
+    {
+      "id": "pon",
+      "title": "Pohnpeian NT & Psalms, old alphabet",
+      "language": "Pohnpeian",
+      "year": "1922",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/pon",
+      "bytes": 1202629,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=pon"
+    },
+    {
+      "id": "porbrbsl",
+      "title": "World Portuguese Bible",
+      "language": "Portuguese",
+      "year": "2022-2026",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/porbrbsl",
+      "bytes": 4693950,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=porbrbsl"
+    },
+    {
+      "id": "ron1924",
+      "title": "Romanian Bible (Cyrillic)",
+      "language": "Romanian",
+      "year": "1924",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/ron1924",
+      "bytes": 7218735,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=ron1924"
+    },
+    {
+      "id": "ronbtf",
+      "title": "Romanian BTF Bible",
+      "language": "Romanian",
+      "year": "2024",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/ronbtf",
+      "bytes": 4588409,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=ronbtf"
+    },
+    {
+      "id": "ronbl",
+      "title": "Romanian Free Holy Bible",
+      "language": "Romanian",
+      "year": "2022",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/ronbl",
+      "bytes": 1142056,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=ronbl"
+    },
+    {
+      "id": "ronlsb",
+      "title": "Romanian Free Holy Bible",
+      "language": "Romanian",
+      "year": "2022",
+      "format": "xetex",
+      "formats": [
+        "xetex"
+      ],
+      "path": "ebible/ronlsb",
+      "bytes": 1313666,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=ronlsb"
+    },
+    {
+      "id": "russyn",
+      "title": "Russian Synodal Bible",
+      "language": "Russian",
+      "year": "",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/russyn",
+      "bytes": 6410392,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=russyn"
+    },
+    {
+      "id": "srp1868",
+      "title": "Serbian DK Bible (Cyrillic)",
+      "language": "Serbian",
+      "year": "",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/srp1868",
+      "bytes": 6287675,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=srp1868"
+    },
+    {
+      "id": "srp1865",
+      "title": "Serbian DK Bible (Latin)",
+      "language": "Serbian",
+      "year": "1847, 1865",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/srp1865",
+      "bytes": 3871416,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=srp1865"
+    },
+    {
+      "id": "spaRV1909",
+      "title": "Reina Valera 1909",
+      "language": "Spanish",
+      "year": "1909",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/spaRV1909",
+      "bytes": 12503734,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=spaRV1909"
+    },
+    {
+      "id": "spabll",
+      "title": "Spanish BLL",
+      "language": "Spanish",
+      "year": "2026",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/spabll",
+      "bytes": 14284959,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=spabll"
+    },
+    {
+      "id": "spablm",
+      "title": "Spanish Free Bible for the World",
+      "language": "Spanish",
+      "year": "2022",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/spablm",
+      "bytes": 14910406,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=spablm"
+    },
+    {
+      "id": "swh1850",
+      "title": "Swahili Bible",
+      "language": "Swahili",
+      "year": "1850",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/swh1850",
+      "bytes": 1050517,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=swh1850"
+    },
+    {
+      "id": "ton",
+      "title": "Revised West Version",
+      "language": "Tongan",
+      "year": "2014",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/ton",
+      "bytes": 6105270,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=ton"
+    },
+    {
+      "id": "ukr1871",
+      "title": "Ukrainian Bible by P. Kulish",
+      "language": "Ukrainian",
+      "year": "1871, 1903, 1905",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/ukr1871",
+      "bytes": 6363730,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=ukr1871"
+    },
+    {
+      "id": "ukrfb",
+      "title": "Ukrainian Freedom Bible",
+      "language": "Ukrainian",
+      "year": "2024",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/ukrfb",
+      "bytes": 6363461,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=ukrfb"
+    },
+    {
+      "id": "vie1934",
+      "title": "Vietnamese Bible 1923",
+      "language": "Vietnamese",
+      "year": "1923, 1925",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/vie1934",
+      "bytes": 5418356,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=vie1934"
+    },
+    {
+      "id": "wro",
+      "title": "Worrorra Mark and Luke",
+      "language": "Worrorra",
+      "year": "1943",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/wro",
+      "bytes": 295235,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=wro"
+    },
+    {
+      "id": "hebwlc",
+      "title": "Hebrew OT (WLC)",
+      "language": "עברית",
+      "year": "2018",
+      "format": "usfm",
+      "formats": [
+        "usfm"
+      ],
+      "path": "ebible/hebwlc",
+      "bytes": 5602230,
+      "license": "public-domain",
+      "source": "https://ebible.org/details.php?id=hebwlc"
+    }
+  ],
+  "originals": [
+    {
+      "id": "aleppo-codex",
+      "title": "Aleppo Codex",
+      "path": "originals/aleppo-codex",
+      "bytes": 4888055,
+      "license": "public-domain",
+      "source": "https://github.com/midvash/bible-data",
+      "kind": "original-language"
+    },
+    {
+      "id": "byzantine-majority-text",
+      "title": "byzantine-majority-text",
+      "path": "originals/byzantine-majority-text",
+      "bytes": 20931667,
+      "license": "public-domain",
+      "source": "https://github.com/byztxt/byzantine-majority-text",
+      "kind": "original-language"
+    },
+    {
+      "id": "greektext-elzevir",
+      "title": "greektext-elzevir",
+      "path": "originals/greektext-elzevir",
+      "bytes": 4013528,
+      "license": "public-domain",
+      "source": "https://github.com/byztxt/greektext-elzevir",
+      "kind": "original-language"
+    },
+    {
+      "id": "greektext-scrivener",
+      "title": "greektext-scrivener",
+      "path": "originals/greektext-scrivener",
+      "bytes": 1033872,
+      "license": "public-domain",
+      "source": "https://github.com/byztxt/greektext-scrivener",
+      "kind": "original-language"
+    },
+    {
+      "id": "greektext-stephens",
+      "title": "greektext-stephens",
+      "path": "originals/greektext-stephens",
+      "bytes": 2617643,
+      "license": "public-domain",
+      "source": "https://github.com/byztxt/greektext-stephens",
+      "kind": "original-language"
+    },
+    {
+      "id": "greektext-textus-receptus",
+      "title": "greektext-textus-receptus",
+      "path": "originals/greektext-textus-receptus",
+      "bytes": 2982278,
+      "license": "public-domain",
+      "source": "https://github.com/byztxt/greektext-textus-receptus",
+      "kind": "original-language"
+    },
+    {
+      "id": "morphhb",
+      "title": "Open Scriptures Hebrew Bible (WLC)",
+      "path": "originals/morphhb",
+      "bytes": 97947810,
+      "license": "WLC text public-domain; morphology CC BY 4.0",
+      "source": "https://github.com/openscriptures/morphhb",
+      "kind": "original-language"
+    },
+    {
+      "id": "nestle1904",
+      "title": "Nestle 1904 Greek NT",
+      "path": "originals/nestle1904",
+      "bytes": 61406962,
+      "license": "public-domain (text); see repo READMEs for morph/markup",
+      "source": "https://github.com/biblicalhumanities/Nestle1904",
+      "kind": "original-language"
+    },
+    {
+      "id": "westcott-hort",
+      "title": "Westcott-Hort Greek NT",
+      "path": "originals/westcott-hort",
+      "bytes": 3884801,
+      "license": "public-domain",
+      "source": "https://github.com/byztxt/greektext-westcott-hort",
+      "kind": "original-language"
+    }
+  ]
+}

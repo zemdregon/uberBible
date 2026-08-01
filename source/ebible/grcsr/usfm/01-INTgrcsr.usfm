@@ -1,0 +1,211 @@
+\id INT - Solid Rock Greek New Testament, Scholar's Edition 
+\h INTRODUCTION 
+\toc1 Introduction 
+\toc2 Introduction 
+\toc3 Intro. 
+\imt1 Introduction  
+\ipr \it Joey McCollum and Stephen L. Brown\it*  
+\is1 About This Edition  
+\im The \it Solid Rock Greek New Testament: Scholar's Edition\it* (SRS) was produced for the purpose of highlighting interactions between the various text-critical methodologies that underlie prominent Greek New Testament editions. In compiling this edition, we have expanded on the apparatus of the SBL Greek New Testament (SBL GNT) by collating several additional works at more than one thousand additional points of variation. This expansion was motivated by two goals: First, to add to the SBL GNT's coverage of Byzantine and majority texts, with the purpose of highlighting previously-overlooked points of heterogeneity in the bulk of later manuscripts; and second, to extend the SBL GNT's treatment of prominent critical texts like Nestle-Aland that have seen major changes in content and methodology in their most recent editions.  
+\ip Strictly speaking, SRS is not a critical edition of the Greek New Testament. Since the sources we have collated are other editions rather than historical manuscripts, translations, and citations of the Greek text, SRS is better described as a digest of critical texts. As such, it is intended to be a study help to students, pastors, and other teachers of the Word who desire a simple, but comprehensive guide to the places where text-critical scholarship offers differing opinions. Exegesis begins with the text; therefore, a solid foundation for making decisions on variants in the text is indispensable.  
+\is1 The Text  
+\im The SRS edition has been produced on Byzantine-priority grounds,\f + \fr 1:0 \ft While the editors differ in their degrees of support for this approach, both acknowledge that it is one worthy of closer consideration than it has so far received. An introduction to and defense of Byzantine-priority can be found in the first essay of the appendix.\f* using an electronic version of the Robinson-Pierpont (RP) text as a base. A commentary on all of the textual differences between this edition and RP can be found in the second essay of the appendix.  
+\ip Paratextual matters, such as verse and paragraph divisions, capitalization, and punctuation generally follow the conventions of RP, though some changes have been made.\f + \fr 1:0 \ft A log of these changes can be found at \+jmp https://github.com/jjmccollum/solid-rock-gnt\+jmp*.\f* Abbreviations for numbers and nomina sacra, common in Greek manuscripts, have been expanded for ease of reading. The typeface used in this edition prints iota adscripts, rather than subscripts, with capital letters, so, for example, ῼ should be read as the capitalized equivalent of ῳ. For the sake of convenience, we have placed the New Testament books in the order most familiar to English-speaking Christians.  
+\is1 The Apparatus  
+\im Our collation covers the following editions of the Greek New Testament:  
+\ib  
+\tr
+\tc1 RP 
+\tc2 Maurice A. Robinson and William G. Pierpont, eds. \it The New Testament in the Original Greek: Byzantine Textform\it*. Southborough, MA: Chilton Book Publishing, 2005. Electronic version. This is the quintessential Byzantine-priority critical text. It follows the predominant K\sup x\sup* Byzantine textual family in most of the New Testament and the Koine or Q profile in Revelation. Differences between the print and electronic versions are summarized at the beginning of the second appendix essay. 
+\tr
+\tc1 \it f\it* \sup 35\sup* 
+\tc2 Wilbur N. Pickering, ed. \it The Greek New Testament According to Family 35\it*. 2nd ed. Wilbur N. Pickering, 2015. This edition follows the consensus of K\sup r\sup*, or Family 35. This textual family has fewer and later witnesses than K\sup x \sup*, but it has a more cohesive and consistent profile throughout the New Testament. 
+\tr
+\tc1 TR 
+\tc2 The Textus Receptus—specifically, the third or “Stephanus” edition produced in 1550. The \it Textus Receptus\it* was one of the earliest critical editions of the New Testament. While the principles used to produce it might be considered closer to eclecticism than to Byzantine-priority, the few manuscripts collated for the edition were generally Byzantine in character, making the text largely Byzantine. 
+\tr
+\tc1 TNT\sup 2\sup* 
+\tc2 The 2009 Tyndale House corrected edition of Samuel P. Tregelles, ed. \it The Greek New Testament, Edited from Ancient Authorities, with their Various Readings in Full, and the Latin Version of Jerome\it*. London: Samuel Bagster and Sons, 1857–1879. Tregelles's Greek New Testament both preceded and influenced that of Westcott and Hort. His methodology, like theirs, placed great emphasis on knowledge of manuscript evidence. Yet unlike Westcott and Hort, who in practice ruled out much of this evidence through a conjectured history of the text, Tregelles eschewed purely conjectural approaches and relied much more on the manuscript data itself. As a result, where the Westcott-Hort edition follows more of a copy-text methodology, Tregelles's text takes a more balanced approach. 
+\tr
+\tc1 WH 
+\tc2 Brooke Foss Westcott and Fenton John Anthony Hort. \it The New Testament in the Original Greek\it*. Vol. 1: Text. New York, NY: Harper & Brothers, 1881. This edition served as a critical response to the \it Textus Receptus\it*, and its publication marked a turning point for mainstream New Testament textual criticism. The methodology of Westcott and Hort made use of internal canons of evaluating readings, but it emphasized the priority of external evidence, or knowledge of manuscripts and their relative weights. Because Westcott and Hort assigned the highest weight to the fourth-century codices Sinaiticus ( 01 / א ) and Vaticanus (B / 03), their text most closely resembles that of these two witnesses, and especially that of Vaticanus. 
+\tr
+\tc1 NA\sup 25\sup* 
+\tc2 Erwin Nestle and Kurt Aland, eds. \it Novum Testamentum Graece cum apparatu critico curavit Eberhard Nestle novis curis elaboravit Erwin Nestle\it*. 25th ed. Stuttgart: Privilegierte Württembergische Bibelanstalt, 1963. This was the last edition of the Nestle text to be produced under Erwin Nestle's supervision. It follows the simple methodology of adopting the majority reading of three other prominent editions, namely, those of Westcott-Hort, Tischendorf, and Weiss. 
+\tr
+\tc1 NA\sup 27\sup* 
+\tc2 Kurt Aland et al., eds. \it Nestle-Aland Novum Testamentum Graece\it*. 27th ed. Stuttgart: Deutsche Bibelgesellschaft, 1993. Kurt Aland began supervising the production of the Nestle-Aland text with the twenty-sixth edition. The text of that edition (and this one, since only the textual apparatus was changed in the twenty-seventh edition) matches that of the third edition of the United Bible Societies \it Greek New Testament\it* (UBS\sup 3\sup*). The underlying methodology is an eclectic one, with variants evaluated more-or-less independently according to internal canons and the weight of manuscript evidence. Since the editors assigned a higher weight to early Alexandrian witnesses, the resulting text is still close to Westcott-Hort, but not as close as NA\sup 25\sup* was. 
+\tr
+\tc1 NA\sup 28\sup* 
+\tc2 Barbara Aland et al., eds. \it Nestle-Aland Novum Testamentum Graece\it*. 28th ed. Stuttgart: Deutsche Bibelgesellschaft, 2012. The text of this edition differs from that of NA\sup 27\sup* primarily in the catholic epistles, where the text has been updated according to the Coherence-Based Genealogical Method (CBGM). Everywhere else, the only changes introduced to the text are orthographic (see p. xii for more detail). 
+\tr
+\tc1 NIV\sup 73\sup* 
+\tc2 Richard J. Goodrich and Albert L. Lukaszewski. \it A Reader's Greek New Testament\it*. Grand Rapids, MI: Zondervan, 2003. This edition contains the Greek text underlying the 1973 New International Version and is the work of the Committee on Bible Translation. It corresponds closely to NA\sup 27\sup*, being constructed according to a similar eclectic methodology and differing from its text in fewer than 300 places. 
+\tr
+\tc1 NIV\sup 11\sup* 
+\tc2 Richard J. Goodrich and Albert L. Lukaszewski. \it A Reader's Greek New Testament\it*. 3rd ed. Grand Rapids, MI: Zondervan, 2015. This edition contains the Greek text behind the 2011 New International Version and, like the 2003 edition, is the work of the Committee on Bible Translation. This edition accounts for the more recent changes introduced in NA\sup 28\sup* and disagrees with that text in nearly 600 locations. 
+\tr
+\tc1 SBL 
+\tc2 Michael W. Holmes, ed. \it The Greek New Testament: SBL Edition\it*. Atlanta, GA: Society of Biblical Literature, 2010. As noted before, this edition provides a basis of comparison for several prominent critical editions of the Greek New Testament. It uses Westcott-Hort as its base text and departs from that text according to standard eclectic principles. 
+\ib  
+\im In addition, we have cited the readings of the following text-critical works limited to portions of scripture:  
+\ib  
+\tr
+\tc1 Ead 
+\tc2 For Galatians: John Eadie. \it Commentary on the Greek Text of the Epistle of Paul to the Galatians\it*. Edinburgh: T&T Clark, 1869. 
+\tr
+\tc1
+\tc2 For Ephesians: John Eadie. \it Commentary on the Greek Text of the Epistle of Paul to the Ephesians\it*. Ed. by William Young. 3rd ed. Edinburgh: T&T Clark, 1883. 
+\tr
+\tc1
+\tc2 For Philippians: John Eadie. \it Commentary on the Greek Text of the Epistle of Paul to the Philippians\it*. Ed. by William Young. 2nd ed. Edinburgh: T&T Clark, 1884. 
+\tr
+\tc1
+\tc2 For Colossians: John Eadie. \it Commentary on the Greek Text of the Epistle of Paul to the Colossians\it*. Ed. by William Young. 2nd ed. Edinburgh: T&T Clark, 1884. 
+\tr
+\tc1
+\tc2 For 1 and 2 Thessalonians: John Eadie. \it Commentary on the Greek Text of the Epistles of Paul to the Thessalonians\it*. Ed. by William Young. London: Macmillan and Co., 1877. 
+\tr
+\tc1
+\tc2 John Eadie's commentaries on the Pauline epistles are, in the opinion of the current editors, overlooked treasure troves of textual study and exegesis. While Eadie often introduces his commantary on a passage with a summary of other scholarship, he bases his own decisions firmly on manuscript, patristic, and versional evidence. In the few places where Eadie skips over a variation unit or is ambiguous on a variant, his text is not cited. 
+\tr
+\tc1 Carl 
+\tc2 Stephen C. Carlson. \it The Text of Galatians and Its History\it*. Wissenschaftliche Untersuchungen zum Neuen Testament 2. Tübingen: Mohr Siebeck, 2015. Carlson's work (adapted from his 2012 doctoral dissertation) represents an unprecedented step in New Testament text-critical methodology: It is the first study of its scope to construct a Lachmannian genealogical stemma for an entire book of the New Testament. Specifically, Carlson's stemma accounts for 92 witnesses to Galatians across 1624 variation units. While the resulting text does not differ significantly from others produced on eclectic grounds, the differences that do exist and their reflections on the underlying methodology merit their inclusion in the apparatus. 
+\tr
+\tc1 Sol 
+\tc2 S. Matthew Solomon. “The Textual History of Philemon.” PhD thesis. New Orleans Baptist Theological Seminary, 2014. This dissertation is notable in that it contains the first reasonably complete collation of a Pauline epistle. Solomon lists the readings of 572 Greek manuscripts (though he does not include lectionaries) and provides a commentary on the most important variants. Due to its comprehensive coverage of the manuscript tradition and its divergence from the Nestle-Aland text at some variants, we have chosen to cite it in the apparatus. 
+\tr
+\tc1 Wass 
+\tc2 Tommy Wasserman. \it The Epistle of Jude: Its Text and Transmission.\it* Coniectanea Biblica New Testament Series 43. Stockholm: Almqvist and Wiksell International, 2006. In this monograph, Wasserman provides the first complete collation of one of the general epistles. He collates 560 Greek manuscripts (including lectionaries), comments on their most significant differences, and addresses other topics related to the transmission of Jude. Between Wasserman's unprecedented coverage of the manuscript data and the textual decisions he makes on the basis of this data, we consider his text worth citing. 
+\ib  
+\ip We have collated all differences between this edition and those listed above down to the level of orthography. As noted already, we derived many of these differences from the SBL GNT apparatus. Throughout the apparatus, however, we have divided, consolidated, and redrawn the boundaries of variation units, both to account for more extensive changes from other editions and to ensure that, semantically and genealogically, dependent variants were grouped together and independent ones were treated separately to the extent that this was possible. In other places, where the SBL GNT apparatus normalized the orthography of readings, we have corrected some of its readings in order to cite the text of other editions accurately up to orthography. Since paratextual differences such as word breaks and accents were not original to the text, we consider them to fall under the scope of exegesis rather than textual criticism, and for this reason, we have normalized these features in our collation.\f + \fr 1:0 \ft Semantically-significant exceptions exist, such as αὐτ- versus αὑτ- variants in Lk 23:12, Lk 24:12, Jn 2:24, Jn 13:32, Jn 19:17, Jn 20:10, Ac 14:17, 2 Cor 3:5, Eph 2:15, Phil 3:21, Heb 5:3, 1 Jn 5:10, Rev 8:6, and Rev 18:7; Ἰουνίαν versus Ἰουνιᾶν in Rom 16:7; and Νυμφᾶν versus Νύμφαν in Col 4:15.\f*  
+\ip For the sake of transparency, we will detail our collation process here. We have used the following sources to produce a complete collation spreadsheet of all of the above editions:  
+\ib  
+\ili • We began with an electronic version of the RP text. We then added all SRS-RP differences resulting from our textual decisions to the spreadsheet.  
+\ili • Using the RP-\it f\it* \sup 35\sup* collation compiled by the CSPMT\f + \fr 1:0 \ft \+jmp http://cspmt.org/pdf/collations\+jmp* \f* as a reference, we added all differences between RP and \it f\it* \sup 35\sup* to the spreadsheet.  
+\ili • Using the RP-TR collation compiled by Maurice Robinson\f + \fr 1:0 \ft \+jmp http://cspmt.org/pdf/collations\+jmp* \f* as a reference, we added all differences between RP and TR to the spreadsheet. We then checked the resulting TR readings against the CNTR's more recent transcription of the TR,\f + \fr 1:0 \ft \+jmp http://greek-language.com/cntr/resources.htm\+jmp* \f* and where the two disagreed, we consulted the CSNTM's images of the source.\f + \fr 1:0 \ft \+jmp http://csntm.org/Library/Books\+jmp* \f*  
+\ili • We added all RP-TNT\sup 2\sup* differences collated in the SBL GNT apparatus to the spreadsheet, and then we updated and extended these using the TNT\sup 2\sup* corrected digital transcription from Tyndale House.\f + \fr 1:0 \ft \+jmp http://www.tyndalehouse.com/tregelles\+jmp* \f*  
+\ili • We added all RP-WH differences collated in the SBL GNT apparatus to the spreadsheet, and then we corrected and extended these against the CNTR's more recent WH transcription, making corrections and additions where necessary. Where there were disagreements, we consulted images of the source.\f + \fr 1:0 \ft \+jmp https://archive.org/details/newtestamentinor01west\+jmp* \f*  
+\ili • We added all RP-NA\sup 27\sup* differences from the RP 2005 apparatus to the spreadsheet.  
+\ili • Using David Holly's extensive collation of NA\sup 25\sup* and NA\sup 26\sup* (= NA\sup 27\sup*),\f + \fr 1:0 \ft Holly, \+it Comparative Studies in Recent Greek New Testament Texts\+it*. \f* we added all applicable NA²⁷-NA²⁵ differences to the spreadsheet.  
+\ili • We manually collated NA\sup 28\sup* against NA\sup 27\sup*, including orthographic differences outside of the catholic epistles, and added all differences to the spreadsheet.  
+\ili • Checking the variation units in the SBL GNT where the NIV and NA sigla occurred distinctly, we added all NA\sup 27\sup*-NIV\sup 73\sup* differences to the spreadsheet.  
+\ili • We manually collated NIV\sup 11\sup* against NA\sup 28\sup* using the NIV\sup 11\sup* apparatus and added all differences to the spreadsheet.  
+\ili • We added all RP-SBL differences collated in the SBL GNT apparatus to the spreadsheet, and then we corrected and extended these using a computer-based difference check between digital transcriptions of both texts.  
+\ili • We manually collated Ead, Carl, Sol, and Wass against SRS and added all differences to the spreadsheet.  
+\ib  
+\im A chart depicting all collations used can be found in Figure 1. \fig FIGURE 1: Collation graph for this edition. Since collation is a transitive relation (i.e., a full collation of A and B combined with a full collation of B and C yields a full collation of A and C), the connectedness of the graph implies the completeness of the collation between all pairs of witnesses.|src="collation_graph[44].jpg" size="col" ref="1:0" \fig*  
+\ip Our collation consists of over 12300 variation units. We have further broken down these units into the following classes:  
+\ib  
+\ili • Orthographic variants are defined in this work as semantically insignificant spelling changes, such as movable \it nu\it* and \it sigma\it*, final vowel elisions, crasis, itacism and other vowel exchanges (when they do not effect semantically significant changes), σσ-ττ exchanges, doubled consonants and augments, alternate spellings of proper names, and abbreviations for numbers. Variation units that solely concern this type of variation make up roughly 38% of the total. For the sake of space, we have not included these variants in the print apparatus, except in units of another variation type described in this list. A spreadsheet containing all collation data, including orthographic variants, can be found at the official GitHub repository for this edition (\jmp https://github.com/jjmccollum/solid-rock-gnt\jmp*).  
+\ili • Variants involving different conjugations or declensions of the same lemma make up roughly 14% of the total.  
+\ili • Variants involving transposition of word order make up roughly 10% of the total.  
+\ili • Variants involving the addition, omission, or substitution of a conjunction, a disjunction, or the particle μὲν make up roughly 10% of the total.  
+\ili • Variants involving the addition or omission of the article make up roughly 7% of the total.  
+\ili • Variants involving the addition, omission, or substitution (beyond change in declension) of pronouns make up roughly 7% of the total.  
+\ili • Variants involving the addition, omission, or substitution of prepositions or prepositional prefixes make up roughly 6% of the total.  
+\ili • Variants involving the clarification or obfuscation of a referent in a sentence or clause make up roughly 1% of the total.  
+\ili • Variants involving the expansion or contraction of \it nomina sacra\it* make up roughly 1% of the total.  
+\ili • Variants involving the addition, omission, or substitution of verbs of communication (often in a narrative setting) make up roughly 1% of the total.  
+\ili • The remaining variants, which may involve semantically- or genealogically-significant changes, make up roughly 16% of the total.  
+\ib  
+\im Since multiple types of variation may co-occur in the same variation unit, the total of these percentages will exceed 100%.  
+\ip Taking the whole New Testament into consideration, our edition exhibits the following trends of agreement and disagreement (measured as the number of variation units where two editions both possess readings, and their readings disagree) over nonorthographic variants:  
+\ib  
+\tr
+\th1
+\th2 Agreements 
+\th3 Disagreements 
+\tr
+\tc1 SRS-RP 
+\tc2 7938 
+\tc3 42 
+\tr
+\tc1 SRS-\it f\it* \sup 35\sup* 
+\tc2 7058 
+\tc3 922 
+\tr
+\tc1 SRS-TR 
+\tc2 6203 
+\tc3 1777 
+\tr
+\tc1 SRS-TNT\sup 2\sup* 
+\tc2 2380 
+\tc3 5560 
+\tr
+\tc1 SRS-WH 
+\tc2 1565 
+\tc3 6414 
+\tr
+\tc1 SRS-NA\sup 25\sup* 
+\tc2 1781 
+\tc3 6195 
+\tr
+\tc1 SRS-NA\sup 27\sup* 
+\tc2 2122 
+\tc3 5857 
+\tr
+\tc1 SRS-NA\sup 28\sup* 
+\tc2 2131 
+\tc3 5848 
+\tr
+\tc1 SRS-NIV\sup 73\sup* 
+\tc2 2114 
+\tc3 5865 
+\tr
+\tc1 SRS-NIV\sup 11\sup* 
+\tc2 2067 
+\tc3 2114 
+\tr
+\tc1 SRS-SBL 
+\tc2 2119 
+\tc3 5840 
+\tr
+\tc1 SRS-Ead 
+\tc2 209 
+\tc3 203 
+\tr
+\tc1 SRS-Carl 
+\tc2 21 
+\tc3 68 
+\tr
+\tc1 SRS-Sol 
+\tc2 5 
+\tc3 14 
+\tr
+\tc1 SRS-Wass 
+\tc2 6 
+\tc3 19 
+\is1 Notation  
+\im In addition to the sigla associated with the editions cited above, the apparatus of this edition uses the notation for textual variation found in the latest editions of Nestle-Aland, except that distinctions between single-word and multiple-word variants have been dropped in favor of simplicity. The following symbols occur in the text and apparatus:  
+\ib  
+\tr
+\tc1 ⸆ 
+\tc2 Some witnesses add text that SRS does not include. 
+\tr
+\tc1 ⸋…⸌ 
+\tc2 Some witnesses omit the enclosed words. 
+\tr
+\tc1 ⸉…⸊ 
+\tc2 Some witnesses transpose the enclosed words. Orthographic sub-variants may occur in the apparatus. 
+\tr
+\tc1 ⸂…⸃ 
+\tc2 Some witnesses substitute another reading for the enclosed words. Orthographic sub-variants may occur in the apparatus. 
+\tr
+\tc1 ¦ 
+\tc2 Separates multiple variant readings within the same unit. 
+\tr
+\tc1 ⟦…⟧ 
+\tc2 The enclosed witness provides a reading, but marks it as doubtful. This edition does not mark any text as doubtful, so this notation only occurs in the apparatus. 
+\tr
+\tc1 … 
+\tc2 Represents words that are identical or only orthographically different among all witnesses at the given variation unit. 
+\ib  
+\ip In the apparatus, each verse containing variation units is listed before the details of the variation units. If multiple variation units of the same type occur in a verse, then the subsequent markers are distinguished with numbers. The first reading listed is always the SRS reading; therefore, the SRS siglum is omitted except where no other cited edition shares its reading.\f + \fr 1:0 \ft This occurs 11 times in Jn 7:53-8:11 and once in 1 Jn 5:4. SRS adopts a spelling not adopted by other cited editions in 2 Cor 11:4, but this orthographic variant is not printed in the apparatus. All of these differences are covered in more detail in the second appendix essay.\f* If all cited NA or NIV editions agree at a variant, then they are simply combined under the NA or NIV siglum, respectively; otherwise, they will be represented by distinguishable sigla like NA\sup 25\sup* and NA\sup 27+28\sup*.  
+\ip Throughout the essays in the appendix, the following abbreviations for common terms are used: NT for New Testament, MS for manuscript, MSS for manuscripts, and LXX for the Septuagint.  
+\is1 Acknowledgments  
+\im We owe special thanks to Maurice A. Robinson, whose extensive text-critical efforts with William G. Pierpont and commitment to making God's word freely accessible have provided the basic text of this edition, and whose comments on collation details and divided Byzantine readings were indispensible in the preparation of this text. We also wish to recognize Michael W. Holmes, whose exemplary work on the SBL GNT and encouraging responses to our ideas gave us the confidence to undertake the project that culminated in this edition; we hope that our extension to his collation work will be an honor to him and his efforts. We extend our gratitude to Paul D. Anderson of the CSPMT for his helpful feedback during the early stages of this edition's development.  
+\ip To God be the glory!  
+\ib  
+\im \it January 2018\it*  
+\ie  

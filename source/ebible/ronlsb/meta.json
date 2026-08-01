@@ -1,0 +1,8 @@
+{
+  "id": "ronlsb",
+  "title": "Romanian Free Holy Bible",
+  "source": "ebible.org",
+  "format": "xetex",
+  "license": "public-domain",
+  "note": "USFM/USFX/VPL not currently hosted; only XeTeX package available from eBible as of download date. See also ronbl which appears to be a related Free Holy Bible edition."
+}

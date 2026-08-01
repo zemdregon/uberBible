@@ -1,0 +1,620 @@
+[
+  {
+    "id": "arb-vd",
+    "lang": "Arabic",
+    "title": "Arabic Van Dyck Bible",
+    "year": ""
+  },
+  {
+    "id": "arp",
+    "lang": "Arapaho",
+    "title": "Arapaho Luke",
+    "year": "1903"
+  },
+  {
+    "id": "awk",
+    "lang": "Awabakal",
+    "title": "Awabakal Luke",
+    "year": "1892"
+  },
+  {
+    "id": "bea",
+    "lang": "Beaver",
+    "title": "Beaver Mark",
+    "year": "1886"
+  },
+  {
+    "id": "bla",
+    "lang": "Blackfoot",
+    "title": "Blackfoot Matthew",
+    "year": "1890"
+  },
+  {
+    "id": "breBRG",
+    "lang": "Breton",
+    "title": "Breton Gospels",
+    "year": "1827"
+  },
+  {
+    "id": "mya",
+    "lang": "Burmese",
+    "title": "Burmese Common Language Bible",
+    "year": "2005"
+  },
+  {
+    "id": "myajvb",
+    "lang": "Burmese",
+    "title": "Judson Burmese Bible",
+    "year": "1840"
+  },
+  {
+    "id": "cha",
+    "lang": "Chamorro",
+    "title": "Chamorro Gospels, Acts, and Psalms",
+    "year": "1908"
+  },
+  {
+    "id": "cekak",
+    "lang": "Chin, Eastern Khumi",
+    "title": "Asang Khongca Bible",
+    "year": "2019"
+  },
+  {
+    "id": "hltmcsb",
+    "lang": "Chin, Matu",
+    "title": "Matupi Chin Standard Bible 2019",
+    "year": "2019"
+  },
+  {
+    "id": "hlt",
+    "lang": "Chin, Matu",
+    "title": "Matupi Chin Standard Bible w/ Strongs",
+    "year": "2018-2020"
+  },
+  {
+    "id": "cmn-cu89s",
+    "lang": "Chinese",
+    "title": "Chinese Union Version (simplified)",
+    "year": ""
+  },
+  {
+    "id": "cmn-cu89t",
+    "lang": "Chinese",
+    "title": "Chinese Union Version (traditional)",
+    "year": ""
+  },
+  {
+    "id": "cmnswcb",
+    "lang": "Chinese, Mandarin",
+    "title": "World Chinese Bible",
+    "year": "2026"
+  },
+  {
+    "id": "copbhc",
+    "lang": "Coptic",
+    "title": "Coptic Boharic NT",
+    "year": ""
+  },
+  {
+    "id": "copcnt",
+    "lang": "Coptic",
+    "title": "Coptic NT",
+    "year": ""
+  },
+  {
+    "id": "hrv",
+    "lang": "Croatian",
+    "title": "Croatian Bible",
+    "year": "1941-1942"
+  },
+  {
+    "id": "ces1613",
+    "lang": "Czech",
+    "title": "Czech Kralická Bible 1613",
+    "year": "1579-1593"
+  },
+  {
+    "id": "dif",
+    "lang": "Dieri",
+    "title": "Dieri NT",
+    "year": "1897"
+  },
+  {
+    "id": "nld",
+    "lang": "Dutch",
+    "title": "Dutch Bible 1917",
+    "year": "1917"
+  },
+  {
+    "id": "eng-asv",
+    "lang": "English",
+    "title": "American Standard Version (1901)",
+    "year": "1901"
+  },
+  {
+    "id": "engasvbt",
+    "lang": "English",
+    "title": "ASV Byzantine Text",
+    "year": ""
+  },
+  {
+    "id": "engBBE",
+    "lang": "English",
+    "title": "Bible in Basic English",
+    "year": "1949, 1964"
+  },
+  {
+    "id": "eng-Brenton",
+    "lang": "English",
+    "title": "Brenton English Septuagint",
+    "year": "1851"
+  },
+  {
+    "id": "eng-uk-lxx2012",
+    "lang": "English",
+    "title": "British English Septuagint 2012",
+    "year": "1851, 2012"
+  },
+  {
+    "id": "engDBY",
+    "lang": "English",
+    "title": "Darby Translation",
+    "year": "1871, 1884"
+  },
+  {
+    "id": "engbsb",
+    "lang": "English",
+    "title": "English Berean Standard Bible",
+    "year": "2020"
+  },
+  {
+    "id": "enggnv",
+    "lang": "English",
+    "title": "Geneva Bible 1599",
+    "year": "1599"
+  },
+  {
+    "id": "eng-kjv2006",
+    "lang": "English",
+    "title": "King James Version",
+    "year": "1611, 1769"
+  },
+  {
+    "id": "eng-kjv",
+    "lang": "English",
+    "title": "King James Version + Apocrypha",
+    "year": "1611, 1769"
+  },
+  {
+    "id": "engkjvcpb",
+    "lang": "English",
+    "title": "KJV Cambridge Paragraph",
+    "year": ""
+  },
+  {
+    "id": "eng-lxx2012",
+    "lang": "English",
+    "title": "LXX2012 U. S. English",
+    "year": "1851, 2012"
+  },
+  {
+    "id": "engmsb",
+    "lang": "English",
+    "title": "Majority Standard BIble",
+    "year": "2024"
+  },
+  {
+    "id": "engnoy",
+    "lang": "English",
+    "title": "Noyes Bible",
+    "year": "1869"
+  },
+  {
+    "id": "engoebcw",
+    "lang": "English",
+    "title": "Open English Bible (Commonwealth)",
+    "year": ""
+  },
+  {
+    "id": "engoebus",
+    "lang": "English",
+    "title": "Open English Bible (US)",
+    "year": ""
+  },
+  {
+    "id": "eng-rv",
+    "lang": "English",
+    "title": "Revised Version",
+    "year": "1895"
+  },
+  {
+    "id": "engtnt",
+    "lang": "English",
+    "title": "Tyndale NT",
+    "year": "1534"
+  },
+  {
+    "id": "englxxup",
+    "lang": "English",
+    "title": "Updated Brenton English Septuagint",
+    "year": "1851"
+  },
+  {
+    "id": "engwebster",
+    "lang": "English",
+    "title": "Webster Bible",
+    "year": "1833"
+  },
+  {
+    "id": "engwebp",
+    "lang": "English",
+    "title": "World English Bible",
+    "year": "1997-2023"
+  },
+  {
+    "id": "engwebpb",
+    "lang": "English",
+    "title": "World English Bible British Edition",
+    "year": "2011-2023"
+  },
+  {
+    "id": "eng-webbe",
+    "lang": "English",
+    "title": "World English Bible British Edition with Deuterocanon",
+    "year": "2011-2024"
+  },
+  {
+    "id": "eng-web",
+    "lang": "English",
+    "title": "World English Bible Classic",
+    "year": "1997-2023"
+  },
+  {
+    "id": "engwebu",
+    "lang": "English",
+    "title": "World English Bible Updated",
+    "year": "1997-2024"
+  },
+  {
+    "id": "engwmb",
+    "lang": "English",
+    "title": "World Messianic Bible",
+    "year": "1997-2015"
+  },
+  {
+    "id": "engwmbb",
+    "lang": "English",
+    "title": "World Messianic Bible British Edition",
+    "year": "1997-2015"
+  },
+  {
+    "id": "engWycliffe",
+    "lang": "English",
+    "title": "Wycliffe Bible portions",
+    "year": "1395"
+  },
+  {
+    "id": "engylt",
+    "lang": "English",
+    "title": "Young's Literal Translation",
+    "year": "1862, 1898"
+  },
+  {
+    "id": "epo",
+    "lang": "Esperanto",
+    "title": "Esperanto Bible",
+    "year": "1910"
+  },
+  {
+    "id": "frasbl",
+    "lang": "French",
+    "title": "French Free Holy Bible for the World",
+    "year": "2022"
+  },
+  {
+    "id": "fraLSG",
+    "lang": "French",
+    "title": "French Louis Segond 1910 Bible",
+    "year": "1910"
+  },
+  {
+    "id": "fra_fob",
+    "lang": "French",
+    "title": "French Ostervald Bible",
+    "year": "1744"
+  },
+  {
+    "id": "frajnd",
+    "lang": "French",
+    "title": "French: Bible J.N. Darby",
+    "year": "2024"
+  },
+  {
+    "id": "kld",
+    "lang": "Gamilaraay",
+    "title": "KAMILAROI SAYINGS",
+    "year": "1839"
+  },
+  {
+    "id": "deu1912",
+    "lang": "German, Standard",
+    "title": "German Luther Bible 1912",
+    "year": "1912"
+  },
+  {
+    "id": "deutkw",
+    "lang": "German, Standard",
+    "title": "German Textbibel",
+    "year": "1906"
+  },
+  {
+    "id": "deuelo",
+    "lang": "German, Standard",
+    "title": "German Unrevised Elberfelder Bible",
+    "year": "1905"
+  },
+  {
+    "id": "grcbrent",
+    "lang": "Greek, Ancient",
+    "title": "Brenton Septuagint",
+    "year": "1851"
+  },
+  {
+    "id": "grcbyz",
+    "lang": "Greek, Ancient",
+    "title": "Byzantine Greek  NT",
+    "year": "1904"
+  },
+  {
+    "id": "grcmt",
+    "lang": "Greek, Ancient",
+    "title": "Greek Majority Text NT",
+    "year": "2018"
+  },
+  {
+    "id": "grclxx",
+    "lang": "Greek, Ancient",
+    "title": "SEPTUAGINTA",
+    "year": ""
+  },
+  {
+    "id": "grcsr",
+    "lang": "Greek, Ancient",
+    "title": "Solid Rock Greek New Testament",
+    "year": ""
+  },
+  {
+    "id": "grctcgnt",
+    "lang": "Greek, Ancient",
+    "title": "Text-Critical Greek NT",
+    "year": "2018"
+  },
+  {
+    "id": "grctr",
+    "lang": "Greek, Ancient",
+    "title": "Textus Receptus",
+    "year": ""
+  },
+  {
+    "id": "grc-tisch",
+    "lang": "Greek, Ancient",
+    "title": "Tischendorf Greek NT",
+    "year": ""
+  },
+  {
+    "id": "kky",
+    "lang": "Guugu Yimidhirr",
+    "title": "Gugu Yimidhirr Matthew Sample",
+    "year": "1888"
+  },
+  {
+    "id": "hat",
+    "lang": "Haitian",
+    "title": "Haitian Creole Bible 1985",
+    "year": "1985"
+  },
+  {
+    "id": "haw1868",
+    "lang": "Hawaiian",
+    "title": "Hawaiian Bible 1868",
+    "year": "1868"
+  },
+  {
+    "id": "hbo",
+    "lang": "Hebrew",
+    "title": "Hebrew Masoretic OT",
+    "year": ""
+  },
+  {
+    "id": "heb",
+    "lang": "Hebrew",
+    "title": "Modern Hebrew Bible",
+    "year": "1899"
+  },
+  {
+    "id": "hebsg",
+    "lang": "Hebrew",
+    "title": "Salkinson Hebrew NT",
+    "year": "1886"
+  },
+  {
+    "id": "hboWLC",
+    "lang": "Hebrew",
+    "title": "Westminster Leningrad Codex Hebrew OT",
+    "year": ""
+  },
+  {
+    "id": "ita1885",
+    "lang": "Italian",
+    "title": "Italian Diodati Bible",
+    "year": "1885"
+  },
+  {
+    "id": "ita1927",
+    "lang": "Italian",
+    "title": "Italian Riveduta Bible",
+    "year": "1927"
+  },
+  {
+    "id": "jpnm",
+    "lang": "Japanese",
+    "title": "Japanese Freedom Bible",
+    "year": "2026"
+  },
+  {
+    "id": "jpn1965",
+    "lang": "Japanese",
+    "title": "New Japanese NT",
+    "year": "1963, 1965"
+  },
+  {
+    "id": "kor",
+    "lang": "Korean",
+    "title": "Korean Bible 1910",
+    "year": "1900, 1910"
+  },
+  {
+    "id": "kos",
+    "lang": "Kosraean",
+    "title": "Kosraean Bible",
+    "year": "1928"
+  },
+  {
+    "id": "ulk1902",
+    "lang": "Meriam",
+    "title": "Meriam Mir Bible",
+    "year": "1902"
+  },
+  {
+    "id": "nay",
+    "lang": "Narrinyeri",
+    "title": "Ngarrindjeri Scriptures",
+    "year": "1864"
+  },
+  {
+    "id": "pesOPV",
+    "lang": "Persian",
+    "title": "Old Persion Version Bible",
+    "year": "1895"
+  },
+  {
+    "id": "pon-pdn",
+    "lang": "Pohnpeian",
+    "title": "Pohnpeian NT & Psalms, new alphabet",
+    "year": ""
+  },
+  {
+    "id": "pon",
+    "lang": "Pohnpeian",
+    "title": "Pohnpeian NT & Psalms, old alphabet",
+    "year": "1922"
+  },
+  {
+    "id": "porbrbsl",
+    "lang": "Portuguese",
+    "title": "World Portuguese Bible",
+    "year": "2022-2026"
+  },
+  {
+    "id": "ron1924",
+    "lang": "Romanian",
+    "title": "Romanian Bible (Cyrillic)",
+    "year": "1924"
+  },
+  {
+    "id": "ronbtf",
+    "lang": "Romanian",
+    "title": "Romanian BTF Bible",
+    "year": "2024"
+  },
+  {
+    "id": "ronbl",
+    "lang": "Romanian",
+    "title": "Romanian Free Holy Bible",
+    "year": "2022"
+  },
+  {
+    "id": "ronlsb",
+    "lang": "Romanian",
+    "title": "Romanian Free Holy Bible",
+    "year": "2022"
+  },
+  {
+    "id": "russyn",
+    "lang": "Russian",
+    "title": "Russian Synodal Bible",
+    "year": ""
+  },
+  {
+    "id": "srp1868",
+    "lang": "Serbian",
+    "title": "Serbian DK Bible (Cyrillic)",
+    "year": ""
+  },
+  {
+    "id": "srp1865",
+    "lang": "Serbian",
+    "title": "Serbian DK Bible (Latin)",
+    "year": "1847, 1865"
+  },
+  {
+    "id": "spaRV1909",
+    "lang": "Spanish",
+    "title": "Reina Valera 1909",
+    "year": "1909"
+  },
+  {
+    "id": "spabll",
+    "lang": "Spanish",
+    "title": "Spanish BLL",
+    "year": "2026"
+  },
+  {
+    "id": "spablm",
+    "lang": "Spanish",
+    "title": "Spanish Free Bible for the World",
+    "year": "2022"
+  },
+  {
+    "id": "swh1850",
+    "lang": "Swahili",
+    "title": "Swahili Bible",
+    "year": "1850"
+  },
+  {
+    "id": "ton",
+    "lang": "Tongan",
+    "title": "Revised West Version",
+    "year": "2014"
+  },
+  {
+    "id": "ukr1871",
+    "lang": "Ukrainian",
+    "title": "Ukrainian Bible by P. Kulish",
+    "year": "1871, 1903, 1905"
+  },
+  {
+    "id": "ukrfb",
+    "lang": "Ukrainian",
+    "title": "Ukrainian Freedom Bible",
+    "year": "2024"
+  },
+  {
+    "id": "vie1934",
+    "lang": "Vietnamese",
+    "title": "Vietnamese Bible 1923",
+    "year": "1923, 1925"
+  },
+  {
+    "id": "wro",
+    "lang": "Worrorra",
+    "title": "Worrorra Mark and Luke",
+    "year": "1943"
+  },
+  {
+    "id": "hebwlc",
+    "lang": "עברית",
+    "title": "Hebrew OT (WLC)",
+    "year": "2018"
+  }
+]
