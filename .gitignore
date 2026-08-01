@@ -1,5 +1,9 @@
 node_modules/
 .qdrant/
+derived/md/*/
+docs/
+site/
+mkdocs.yml
 .DS_Store
 *.log
 .env

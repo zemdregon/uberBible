@@ -5,6 +5,11 @@
   "scripts": {
     "normalize": "node scripts/normalize-usfm.js",
     "normalize:all": "node scripts/normalize-usfm.js --all",
+    "export:md": "node scripts/export-md.js",
+    "export:md:all": "node scripts/export-md.js --all",
+    "docs:prepare": "bash scripts/prepare-docs-dir.sh",
+    "docs:build": "bash scripts/prepare-docs-dir.sh && mkdocs build",
+    "docs:serve": "bash scripts/prepare-docs-dir.sh && mkdocs serve",
     "ingest": "node scripts/ingest-qdrant.js",
     "ingest:sample": "node scripts/ingest-qdrant.js --id eng-kjv2006"
   },

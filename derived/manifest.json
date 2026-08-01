@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-01T17:33:36.332Z",
+  "generated": "2026-08-01T20:22:47.045Z",
   "note": "derived/ holds processed exports by format (jsonl, md, …). source/ stays raw. Embeddings/Qdrant consume jsonl; they are not the only goal.",
   "formats": {
     "jsonl": {
@@ -1030,8 +1030,39 @@
     },
     "md": {
       "dir": "derived/md",
-      "description": "Reserved for Markdown exports (not built in this pass).",
-      "translations": {}
+      "description": "One Markdown file per chapter under {translation_id}/{book_osis}/{NN}.md, plus README.md index. Generated from jsonl; not committed by default (large file tree).",
+      "translations": {
+        "eng-kjv2006": {
+          "id": "eng-kjv2006",
+          "status": "ok",
+          "chapters": 1189,
+          "books": 66,
+          "verses": 31102,
+          "path": "derived/md/eng-kjv2006",
+          "translation_name": "King James Version",
+          "language": "en"
+        },
+        "hboWLC": {
+          "id": "hboWLC",
+          "status": "ok",
+          "chapters": 929,
+          "books": 39,
+          "verses": 23213,
+          "path": "derived/md/hboWLC",
+          "translation_name": "Westminster Leningrad Codex Hebrew OT",
+          "language": "he"
+        },
+        "grctr": {
+          "id": "grctr",
+          "status": "ok",
+          "chapters": 260,
+          "books": 27,
+          "verses": 7957,
+          "path": "derived/md/grctr",
+          "translation_name": "Textus Receptus",
+          "language": "grc"
+        }
+      }
     }
   }
 }

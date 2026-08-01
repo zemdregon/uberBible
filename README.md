@@ -11,16 +11,20 @@ Catholic editions (Douay-Rheims, Vulgate, WEB Catholic, Petrus Canisius) and Jew
 | [`source/`](source/) | Raw downloads (immutable archive). Prefer USFM under `source/ebible/*/usfm/`. |
 | [`derived/`](derived/) | **Processed exports, keyed by format** — not only JSON, not only embeddings. |
 | [`derived/jsonl/`](derived/jsonl/) | Verse-level JSONL (normalize step). |
-| [`derived/md/`](derived/md/) | Reserved for Markdown (and similar) exports. |
+| [`derived/md/`](derived/md/) | Chapter Markdown trees (`{id}/{Book}/{NN}.md`). Generate locally; gitignored (large). |
 | [`derived/manifest.json`](derived/manifest.json) | What was built for each format. |
-| [`scripts/`](scripts/) | Normalize, optional vector ingest, future exporters. |
+| [`scripts/`](scripts/) | Normalize, MD export, site staging, optional vector ingest. |
+| [`mkdocs.base.yml`](mkdocs.base.yml) | MkDocs Material config (nav generated at stage time). |
 
 Embeddings / Qdrant are **one consumer** of `derived/jsonl/`. The project goal is a reusable multi-format corpus.
 
+**Site:** [zemdregon.github.io/uberBible](https://zemdregon.github.io/uberBible/) (MkDocs Material, same model as [nix-docs](https://github.com/zemdregon/nix-docs)).
+
 ```
 source/ebible/.../usfm  →  scripts/normalize-usfm.js  →  derived/jsonl/*.jsonl
-                                                      →  derived/md/   (later)
-derived/jsonl  →  scripts/ingest-qdrant.js  →  local Ollama + Qdrant  (optional)
+derived/jsonl           →  scripts/export-md.js       →  derived/md/{id}/{Book}/{NN}.md
+derived/md              →  scripts/prepare-docs-dir.sh → docs/ + mkdocs.yml → site/ (Pages)
+derived/jsonl           →  scripts/ingest-qdrant.js   →  local Ollama + Qdrant  (optional)
 ```
 
 ## Normalize (USFM → JSONL)
@@ -50,6 +54,42 @@ Each line in `derived/jsonl/{id}.jsonl`:
   }
 }
 ```
+
+## Export Markdown (one file per chapter)
+
+Reads JSONL (not USFM) and writes:
+
+```
+derived/md/{translation_id}/
+  README.md          # book/chapter index
+  Gen/01.md
+  Matt/01.md
+  ...
+```
+
+```bash
+node scripts/export-md.js --id eng-kjv2006 --id hboWLC --id grctr
+# or: npm run export:md -- --id eng-kjv2006
+# full corpus (~120k files): node scripts/export-md.js --all
+```
+
+Chapter files use YAML frontmatter plus `**verse** text` paragraphs. Each book also gets a `README.md` index. The MD tree is gitignored; regenerate locally when needed.
+
+## GitHub Pages (MkDocs Material)
+
+Same pipeline as nix-docs: stage Markdown into gitignored `docs/` → `mkdocs build` → deploy `site/`.
+
+```bash
+node scripts/export-md.js --all          # or a subset of --id …
+bash scripts/prepare-docs-dir.sh         # symlinks derived/md → docs/, writes mkdocs.yml
+pip install -r requirements-docs.txt
+mkdocs serve                             # http://127.0.0.1:8000
+# mkdocs build                           # → ./site
+```
+
+CI: [`.github/workflows/pages.yml`](.github/workflows/pages.yml) exports all JSONL→MD, stages, builds, and deploys on push to `main`.
+
+Global nav lists **translation indexes only**; chapters are reached via Contents links and search (`omitted_files: ignore`).
 
 ## Optional: local embeddings → Qdrant
 
