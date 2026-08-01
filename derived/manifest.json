@@ -1,0 +1,1037 @@
+{
+  "generated": "2026-08-01T17:33:36.332Z",
+  "note": "derived/ holds processed exports by format (jsonl, md, …). source/ stays raw. Embeddings/Qdrant consume jsonl; they are not the only goal.",
+  "formats": {
+    "jsonl": {
+      "dir": "derived/jsonl",
+      "description": "One JSON object per verse (JSONL), ready for RAG, search, MD export, etc.",
+      "translations": {
+        "eng-kjv2006": {
+          "id": "eng-kjv2006",
+          "status": "ok",
+          "verses": 31102,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/eng-kjv2006.jsonl",
+          "language": "en",
+          "translation_name": "King James Version"
+        },
+        "hboWLC": {
+          "id": "hboWLC",
+          "status": "ok",
+          "verses": 23213,
+          "files": 39,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/hboWLC.jsonl",
+          "language": "he",
+          "translation_name": "Westminster Leningrad Codex Hebrew OT"
+        },
+        "grctr": {
+          "id": "grctr",
+          "status": "ok",
+          "verses": 7957,
+          "files": 27,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/grctr.jsonl",
+          "language": "grc",
+          "translation_name": "Textus Receptus"
+        },
+        "arb-vd": {
+          "id": "arb-vd",
+          "status": "ok",
+          "verses": 31104,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/arb-vd.jsonl",
+          "language": "ar",
+          "translation_name": "Arabic Van Dyck Bible"
+        },
+        "arp": {
+          "id": "arp",
+          "status": "ok",
+          "verses": 1151,
+          "files": 1,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/arp.jsonl",
+          "language": "und",
+          "translation_name": "Arapaho Luke"
+        },
+        "awk": {
+          "id": "awk",
+          "status": "ok",
+          "verses": 1136,
+          "files": 1,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/awk.jsonl",
+          "language": "und",
+          "translation_name": "Awabakal Luke"
+        },
+        "bea": {
+          "id": "bea",
+          "status": "ok",
+          "verses": 678,
+          "files": 1,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/bea.jsonl",
+          "language": "und",
+          "translation_name": "Beaver Mark"
+        },
+        "bla": {
+          "id": "bla",
+          "status": "ok",
+          "verses": 1071,
+          "files": 1,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/bla.jsonl",
+          "language": "und",
+          "translation_name": "Blackfoot Matthew"
+        },
+        "breBRG": {
+          "id": "breBRG",
+          "status": "ok",
+          "verses": 3779,
+          "files": 4,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/breBRG.jsonl",
+          "language": "und",
+          "translation_name": "Breton Gospels"
+        },
+        "cekak": {
+          "id": "cekak",
+          "status": "ok",
+          "verses": 31053,
+          "files": 69,
+          "skipped_non_protestant_or_empty": 3,
+          "path": "derived/jsonl/cekak.jsonl",
+          "language": "und",
+          "translation_name": "Asang Khongca Bible"
+        },
+        "ces1613": {
+          "id": "ces1613",
+          "status": "ok",
+          "verses": 31172,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/ces1613.jsonl",
+          "language": "und",
+          "translation_name": "Czech Kralická Bible 1613"
+        },
+        "cha": {
+          "id": "cha",
+          "status": "ok",
+          "verses": 7244,
+          "files": 6,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/cha.jsonl",
+          "language": "und",
+          "translation_name": "Chamorro Gospels, Acts, and Psalms"
+        },
+        "cmn-cu89s": {
+          "id": "cmn-cu89s",
+          "status": "ok",
+          "verses": 30951,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/cmn-cu89s.jsonl",
+          "language": "zh",
+          "translation_name": "Chinese Union Version (simplified)"
+        },
+        "cmn-cu89t": {
+          "id": "cmn-cu89t",
+          "status": "ok",
+          "verses": 30951,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/cmn-cu89t.jsonl",
+          "language": "zh",
+          "translation_name": "Chinese Union Version (traditional)"
+        },
+        "cmnswcb": {
+          "id": "cmnswcb",
+          "status": "ok",
+          "verses": 31091,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/cmnswcb.jsonl",
+          "language": "zh",
+          "translation_name": "World Chinese Bible"
+        },
+        "copbhc": {
+          "id": "copbhc",
+          "status": "ok",
+          "verses": 7956,
+          "files": 27,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/copbhc.jsonl",
+          "language": "cop",
+          "translation_name": "Coptic Boharic NT"
+        },
+        "copcnt": {
+          "id": "copcnt",
+          "status": "ok",
+          "verses": 7957,
+          "files": 27,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/copcnt.jsonl",
+          "language": "cop",
+          "translation_name": "Coptic NT"
+        },
+        "deu1912": {
+          "id": "deu1912",
+          "status": "ok",
+          "verses": 31102,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/deu1912.jsonl",
+          "language": "de",
+          "translation_name": "German Luther Bible 1912"
+        },
+        "deuelo": {
+          "id": "deuelo",
+          "status": "ok",
+          "verses": 31102,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/deuelo.jsonl",
+          "language": "de",
+          "translation_name": "German Unrevised Elberfelder Bible"
+        },
+        "deutkw": {
+          "id": "deutkw",
+          "status": "ok",
+          "verses": 31157,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/deutkw.jsonl",
+          "language": "de",
+          "translation_name": "German Textbibel"
+        },
+        "dif": {
+          "id": "dif",
+          "status": "ok",
+          "verses": 7959,
+          "files": 27,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/dif.jsonl",
+          "language": "und",
+          "translation_name": "Dieri NT"
+        },
+        "eng-Brenton": {
+          "id": "eng-Brenton",
+          "status": "ok",
+          "verses": 23358,
+          "files": 58,
+          "skipped_non_protestant_or_empty": 19,
+          "path": "derived/jsonl/eng-Brenton.jsonl",
+          "language": "en",
+          "translation_name": "Brenton English Septuagint"
+        },
+        "eng-asv": {
+          "id": "eng-asv",
+          "status": "ok",
+          "verses": 31086,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/eng-asv.jsonl",
+          "language": "en",
+          "translation_name": "American Standard Version (1901)"
+        },
+        "eng-kjv": {
+          "id": "eng-kjv",
+          "status": "ok",
+          "verses": 31207,
+          "files": 80,
+          "skipped_non_protestant_or_empty": 13,
+          "path": "derived/jsonl/eng-kjv.jsonl",
+          "language": "en",
+          "translation_name": "King James Version + Apocrypha"
+        },
+        "eng-lxx2012": {
+          "id": "eng-lxx2012",
+          "status": "ok",
+          "verses": 22828,
+          "files": 54,
+          "skipped_non_protestant_or_empty": 15,
+          "path": "derived/jsonl/eng-lxx2012.jsonl",
+          "language": "en",
+          "translation_name": "LXX2012 U. S. English"
+        },
+        "eng-rv": {
+          "id": "eng-rv",
+          "status": "ok",
+          "verses": 31191,
+          "files": 80,
+          "skipped_non_protestant_or_empty": 13,
+          "path": "derived/jsonl/eng-rv.jsonl",
+          "language": "en",
+          "translation_name": "Revised Version"
+        },
+        "eng-uk-lxx2012": {
+          "id": "eng-uk-lxx2012",
+          "status": "ok",
+          "verses": 22828,
+          "files": 54,
+          "skipped_non_protestant_or_empty": 15,
+          "path": "derived/jsonl/eng-uk-lxx2012.jsonl",
+          "language": "en",
+          "translation_name": "British English Septuagint 2012"
+        },
+        "eng-web": {
+          "id": "eng-web",
+          "status": "ok",
+          "verses": 31833,
+          "files": 82,
+          "skipped_non_protestant_or_empty": 14,
+          "path": "derived/jsonl/eng-web.jsonl",
+          "language": "en",
+          "translation_name": "World English Bible Classic"
+        },
+        "eng-webbe": {
+          "id": "eng-webbe",
+          "status": "ok",
+          "verses": 31833,
+          "files": 82,
+          "skipped_non_protestant_or_empty": 14,
+          "path": "derived/jsonl/eng-webbe.jsonl",
+          "language": "en",
+          "translation_name": "World English Bible British Edition with Deuterocanon"
+        },
+        "engBBE": {
+          "id": "engBBE",
+          "status": "ok",
+          "verses": 31102,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/engBBE.jsonl",
+          "language": "en",
+          "translation_name": "Bible in Basic English"
+        },
+        "engDBY": {
+          "id": "engDBY",
+          "status": "ok",
+          "verses": 31099,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/engDBY.jsonl",
+          "language": "en",
+          "translation_name": "Darby Translation"
+        },
+        "engWycliffe": {
+          "id": "engWycliffe",
+          "status": "ok",
+          "verses": 9621,
+          "files": 9,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/engWycliffe.jsonl",
+          "language": "en",
+          "translation_name": "Wycliffe Bible portions"
+        },
+        "engasvbt": {
+          "id": "engasvbt",
+          "status": "ok",
+          "verses": 31395,
+          "files": 84,
+          "skipped_non_protestant_or_empty": 16,
+          "path": "derived/jsonl/engasvbt.jsonl",
+          "language": "en",
+          "translation_name": "ASV Byzantine Text"
+        },
+        "engbsb": {
+          "id": "engbsb",
+          "status": "ok",
+          "verses": 31086,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/engbsb.jsonl",
+          "language": "en",
+          "translation_name": "English Berean Standard Bible"
+        },
+        "enggnv": {
+          "id": "enggnv",
+          "status": "ok",
+          "verses": 31090,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/enggnv.jsonl",
+          "language": "en",
+          "translation_name": "Geneva Bible 1599"
+        },
+        "engkjvcpb": {
+          "id": "engkjvcpb",
+          "status": "ok",
+          "verses": 31206,
+          "files": 81,
+          "skipped_non_protestant_or_empty": 14,
+          "path": "derived/jsonl/engkjvcpb.jsonl",
+          "language": "en",
+          "translation_name": "KJV Cambridge Paragraph"
+        },
+        "englxxup": {
+          "id": "englxxup",
+          "status": "ok",
+          "verses": 22999,
+          "files": 52,
+          "skipped_non_protestant_or_empty": 14,
+          "path": "derived/jsonl/englxxup.jsonl",
+          "language": "en",
+          "translation_name": "Updated Brenton English Septuagint"
+        },
+        "engmsb": {
+          "id": "engmsb",
+          "status": "ok",
+          "verses": 31098,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/engmsb.jsonl",
+          "language": "en",
+          "translation_name": "Majority Standard BIble"
+        },
+        "engnoy": {
+          "id": "engnoy",
+          "status": "ok",
+          "verses": 18213,
+          "files": 49,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/engnoy.jsonl",
+          "language": "en",
+          "translation_name": "Noyes Bible"
+        },
+        "engoebcw": {
+          "id": "engoebcw",
+          "status": "ok",
+          "verses": 13894,
+          "files": 44,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/engoebcw.jsonl",
+          "language": "en",
+          "translation_name": "Open English Bible (Commonwealth)"
+        },
+        "engoebus": {
+          "id": "engoebus",
+          "status": "ok",
+          "verses": 13894,
+          "files": 44,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/engoebus.jsonl",
+          "language": "en",
+          "translation_name": "Open English Bible (US)"
+        },
+        "engtnt": {
+          "id": "engtnt",
+          "status": "ok",
+          "verses": 7954,
+          "files": 27,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/engtnt.jsonl",
+          "language": "en",
+          "translation_name": "Tyndale NT"
+        },
+        "engwebp": {
+          "id": "engwebp",
+          "status": "ok",
+          "verses": 31098,
+          "files": 67,
+          "skipped_non_protestant_or_empty": 1,
+          "path": "derived/jsonl/engwebp.jsonl",
+          "language": "en",
+          "translation_name": "World English Bible"
+        },
+        "engwebpb": {
+          "id": "engwebpb",
+          "status": "ok",
+          "verses": 31098,
+          "files": 67,
+          "skipped_non_protestant_or_empty": 1,
+          "path": "derived/jsonl/engwebpb.jsonl",
+          "language": "en",
+          "translation_name": "World English Bible British Edition"
+        },
+        "engwebster": {
+          "id": "engwebster",
+          "status": "ok",
+          "verses": 31102,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/engwebster.jsonl",
+          "language": "en",
+          "translation_name": "Webster Bible"
+        },
+        "engwebu": {
+          "id": "engwebu",
+          "status": "ok",
+          "verses": 31833,
+          "files": 82,
+          "skipped_non_protestant_or_empty": 14,
+          "path": "derived/jsonl/engwebu.jsonl",
+          "language": "en",
+          "translation_name": "World English Bible Updated"
+        },
+        "engwmb": {
+          "id": "engwmb",
+          "status": "ok",
+          "verses": 31098,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/engwmb.jsonl",
+          "language": "en",
+          "translation_name": "World Messianic Bible"
+        },
+        "engwmbb": {
+          "id": "engwmbb",
+          "status": "ok",
+          "verses": 31098,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/engwmbb.jsonl",
+          "language": "en",
+          "translation_name": "World Messianic Bible British Edition"
+        },
+        "engylt": {
+          "id": "engylt",
+          "status": "ok",
+          "verses": 31102,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/engylt.jsonl",
+          "language": "en",
+          "translation_name": "Young's Literal Translation"
+        },
+        "epo": {
+          "id": "epo",
+          "status": "ok",
+          "verses": 31102,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/epo.jsonl",
+          "language": "und",
+          "translation_name": "Esperanto Bible"
+        },
+        "fraLSG": {
+          "id": "fraLSG",
+          "status": "ok",
+          "verses": 31170,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/fraLSG.jsonl",
+          "language": "fr",
+          "translation_name": "French Louis Segond 1910 Bible"
+        },
+        "fra_fob": {
+          "id": "fra_fob",
+          "status": "ok",
+          "verses": 31107,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/fra_fob.jsonl",
+          "language": "fr",
+          "translation_name": "French Ostervald Bible"
+        },
+        "frajnd": {
+          "id": "frajnd",
+          "status": "ok",
+          "verses": 31167,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/frajnd.jsonl",
+          "language": "fr",
+          "translation_name": "French: Bible J.N. Darby"
+        },
+        "frasbl": {
+          "id": "frasbl",
+          "status": "ok",
+          "verses": 31833,
+          "files": 81,
+          "skipped_non_protestant_or_empty": 13,
+          "path": "derived/jsonl/frasbl.jsonl",
+          "language": "fr",
+          "translation_name": "French Free Holy Bible for the World"
+        },
+        "grc-tisch": {
+          "id": "grc-tisch",
+          "status": "ok",
+          "verses": 7939,
+          "files": 27,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/grc-tisch.jsonl",
+          "language": "grc",
+          "translation_name": "Tischendorf Greek NT"
+        },
+        "grcbrent": {
+          "id": "grcbrent",
+          "status": "ok",
+          "verses": 22949,
+          "files": 52,
+          "skipped_non_protestant_or_empty": 14,
+          "path": "derived/jsonl/grcbrent.jsonl",
+          "language": "grc",
+          "translation_name": "Brenton Septuagint"
+        },
+        "grcbyz": {
+          "id": "grcbyz",
+          "status": "ok",
+          "verses": 7958,
+          "files": 30,
+          "skipped_non_protestant_or_empty": 3,
+          "path": "derived/jsonl/grcbyz.jsonl",
+          "language": "grc",
+          "translation_name": "Byzantine Greek  NT"
+        },
+        "grclxx": {
+          "id": "grclxx",
+          "status": "ok",
+          "verses": 22645,
+          "files": 52,
+          "skipped_non_protestant_or_empty": 14,
+          "path": "derived/jsonl/grclxx.jsonl",
+          "language": "grc",
+          "translation_name": "SEPTUAGINTA"
+        },
+        "grcmt": {
+          "id": "grcmt",
+          "status": "ok",
+          "verses": 7953,
+          "files": 27,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/grcmt.jsonl",
+          "language": "grc",
+          "translation_name": "Greek Majority Text NT"
+        },
+        "grcsr": {
+          "id": "grcsr",
+          "status": "ok",
+          "verses": 7961,
+          "files": 29,
+          "skipped_non_protestant_or_empty": 2,
+          "path": "derived/jsonl/grcsr.jsonl",
+          "language": "grc",
+          "translation_name": "Solid Rock Greek New Testament"
+        },
+        "grctcgnt": {
+          "id": "grctcgnt",
+          "status": "ok",
+          "verses": 7954,
+          "files": 30,
+          "skipped_non_protestant_or_empty": 3,
+          "path": "derived/jsonl/grctcgnt.jsonl",
+          "language": "grc",
+          "translation_name": "Text-Critical Greek NT"
+        },
+        "hat": {
+          "id": "hat",
+          "status": "ok",
+          "verses": 31102,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/hat.jsonl",
+          "language": "und",
+          "translation_name": "Haitian Creole Bible 1985"
+        },
+        "haw1868": {
+          "id": "haw1868",
+          "status": "ok",
+          "verses": 31102,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/haw1868.jsonl",
+          "language": "und",
+          "translation_name": "Hawaiian Bible 1868"
+        },
+        "hbo": {
+          "id": "hbo",
+          "status": "ok",
+          "verses": 23213,
+          "files": 39,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/hbo.jsonl",
+          "language": "he",
+          "translation_name": "Hebrew Masoretic OT"
+        },
+        "heb": {
+          "id": "heb",
+          "status": "ok",
+          "verses": 31102,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/heb.jsonl",
+          "language": "he",
+          "translation_name": "Modern Hebrew Bible"
+        },
+        "hebsg": {
+          "id": "hebsg",
+          "status": "ok",
+          "verses": 7957,
+          "files": 27,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/hebsg.jsonl",
+          "language": "he",
+          "translation_name": "Salkinson Hebrew NT"
+        },
+        "hebwlc": {
+          "id": "hebwlc",
+          "status": "ok",
+          "verses": 23213,
+          "files": 39,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/hebwlc.jsonl",
+          "language": "he",
+          "translation_name": "Hebrew OT (WLC)"
+        },
+        "hlt": {
+          "id": "hlt",
+          "status": "ok",
+          "verses": 31104,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/hlt.jsonl",
+          "language": "und",
+          "translation_name": "Matupi Chin Standard Bible w/ Strongs"
+        },
+        "hltmcsb": {
+          "id": "hltmcsb",
+          "status": "ok",
+          "verses": 31371,
+          "files": 87,
+          "skipped_non_protestant_or_empty": 20,
+          "path": "derived/jsonl/hltmcsb.jsonl",
+          "language": "und",
+          "translation_name": "Matupi Chin Standard Bible 2019"
+        },
+        "hrv": {
+          "id": "hrv",
+          "status": "ok",
+          "verses": 31336,
+          "files": 73,
+          "skipped_non_protestant_or_empty": 7,
+          "path": "derived/jsonl/hrv.jsonl",
+          "language": "und",
+          "translation_name": "Croatian Bible"
+        },
+        "ita1885": {
+          "id": "ita1885",
+          "status": "ok",
+          "verses": 31095,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/ita1885.jsonl",
+          "language": "und",
+          "translation_name": "Italian Diodati Bible"
+        },
+        "ita1927": {
+          "id": "ita1927",
+          "status": "ok",
+          "verses": 31102,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/ita1927.jsonl",
+          "language": "und",
+          "translation_name": "Italian Riveduta Bible"
+        },
+        "jpn1965": {
+          "id": "jpn1965",
+          "status": "ok",
+          "verses": 7921,
+          "files": 27,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/jpn1965.jsonl",
+          "language": "und",
+          "translation_name": "New Japanese NT"
+        },
+        "jpnm": {
+          "id": "jpnm",
+          "status": "ok",
+          "verses": 31098,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/jpnm.jsonl",
+          "language": "und",
+          "translation_name": "Japanese Freedom Bible"
+        },
+        "kky": {
+          "id": "kky",
+          "status": "ok",
+          "verses": 9,
+          "files": 3,
+          "skipped_non_protestant_or_empty": 2,
+          "path": "derived/jsonl/kky.jsonl",
+          "language": "und",
+          "translation_name": "Gugu Yimidhirr Matthew Sample"
+        },
+        "kld": {
+          "id": "kld",
+          "status": "ok",
+          "verses": 0,
+          "files": 1,
+          "skipped_non_protestant_or_empty": 1,
+          "path": "derived/jsonl/kld.jsonl",
+          "language": "und",
+          "translation_name": "KAMILAROI SAYINGS"
+        },
+        "kor": {
+          "id": "kor",
+          "status": "ok",
+          "verses": 30991,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/kor.jsonl",
+          "language": "und",
+          "translation_name": "Korean Bible 1910"
+        },
+        "kos": {
+          "id": "kos",
+          "status": "ok",
+          "verses": 30935,
+          "files": 67,
+          "skipped_non_protestant_or_empty": 1,
+          "path": "derived/jsonl/kos.jsonl",
+          "language": "und",
+          "translation_name": "Kosraean Bible"
+        },
+        "mya": {
+          "id": "mya",
+          "status": "ok",
+          "verses": 29082,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/mya.jsonl",
+          "language": "und",
+          "translation_name": "Burmese Common Language Bible"
+        },
+        "myajvb": {
+          "id": "myajvb",
+          "status": "ok",
+          "verses": 31045,
+          "files": 67,
+          "skipped_non_protestant_or_empty": 1,
+          "path": "derived/jsonl/myajvb.jsonl",
+          "language": "und",
+          "translation_name": "Judson Burmese Bible"
+        },
+        "nay": {
+          "id": "nay",
+          "status": "ok",
+          "verses": 390,
+          "files": 4,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/nay.jsonl",
+          "language": "und",
+          "translation_name": "Ngarrindjeri Scriptures"
+        },
+        "nld": {
+          "id": "nld",
+          "status": "ok",
+          "verses": 31102,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/nld.jsonl",
+          "language": "und",
+          "translation_name": "Dutch Bible 1917"
+        },
+        "pesOPV": {
+          "id": "pesOPV",
+          "status": "ok",
+          "verses": 31088,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/pesOPV.jsonl",
+          "language": "und",
+          "translation_name": "Old Persion Version Bible"
+        },
+        "pon": {
+          "id": "pon",
+          "status": "ok",
+          "verses": 10415,
+          "files": 28,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/pon.jsonl",
+          "language": "und",
+          "translation_name": "Pohnpeian NT & Psalms, old alphabet"
+        },
+        "pon-pdn": {
+          "id": "pon-pdn",
+          "status": "ok",
+          "verses": 10415,
+          "files": 28,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/pon-pdn.jsonl",
+          "language": "und",
+          "translation_name": "Pohnpeian NT & Psalms, new alphabet"
+        },
+        "porbrbsl": {
+          "id": "porbrbsl",
+          "status": "ok",
+          "verses": 31098,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/porbrbsl.jsonl",
+          "language": "pt",
+          "translation_name": "World Portuguese Bible"
+        },
+        "ron1924": {
+          "id": "ron1924",
+          "status": "ok",
+          "verses": 31045,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/ron1924.jsonl",
+          "language": "und",
+          "translation_name": "Romanian Bible (Cyrillic)"
+        },
+        "ronbl": {
+          "id": "ronbl",
+          "status": "ok",
+          "verses": 7953,
+          "files": 27,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/ronbl.jsonl",
+          "language": "und",
+          "translation_name": "Romanian Free Holy Bible"
+        },
+        "ronbtf": {
+          "id": "ronbtf",
+          "status": "ok",
+          "verses": 31102,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/ronbtf.jsonl",
+          "language": "und",
+          "translation_name": "Romanian BTF Bible"
+        },
+        "russyn": {
+          "id": "russyn",
+          "status": "ok",
+          "verses": 31169,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/russyn.jsonl",
+          "language": "ru",
+          "translation_name": "Russian Synodal Bible"
+        },
+        "spaRV1909": {
+          "id": "spaRV1909",
+          "status": "ok",
+          "verses": 31084,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/spaRV1909.jsonl",
+          "language": "es",
+          "translation_name": "Reina Valera 1909"
+        },
+        "spabll": {
+          "id": "spabll",
+          "status": "ok",
+          "verses": 31833,
+          "files": 82,
+          "skipped_non_protestant_or_empty": 14,
+          "path": "derived/jsonl/spabll.jsonl",
+          "language": "es",
+          "translation_name": "Spanish BLL"
+        },
+        "spablm": {
+          "id": "spablm",
+          "status": "ok",
+          "verses": 31833,
+          "files": 81,
+          "skipped_non_protestant_or_empty": 13,
+          "path": "derived/jsonl/spablm.jsonl",
+          "language": "es",
+          "translation_name": "Spanish Free Bible for the World"
+        },
+        "srp1865": {
+          "id": "srp1865",
+          "status": "ok",
+          "verses": 31111,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/srp1865.jsonl",
+          "language": "und",
+          "translation_name": "Serbian DK Bible (Latin)"
+        },
+        "srp1868": {
+          "id": "srp1868",
+          "status": "ok",
+          "verses": 31111,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/srp1868.jsonl",
+          "language": "und",
+          "translation_name": "Serbian DK Bible (Cyrillic)"
+        },
+        "swh1850": {
+          "id": "swh1850",
+          "status": "ok",
+          "verses": 7853,
+          "files": 26,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/swh1850.jsonl",
+          "language": "und",
+          "translation_name": "Swahili Bible"
+        },
+        "ton": {
+          "id": "ton",
+          "status": "ok",
+          "verses": 31102,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/ton.jsonl",
+          "language": "und",
+          "translation_name": "Revised West Version"
+        },
+        "ukr1871": {
+          "id": "ukr1871",
+          "status": "ok",
+          "verses": 31082,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/ukr1871.jsonl",
+          "language": "und",
+          "translation_name": "Ukrainian Bible by P. Kulish"
+        },
+        "ukrfb": {
+          "id": "ukrfb",
+          "status": "ok",
+          "verses": 31082,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/ukrfb.jsonl",
+          "language": "und",
+          "translation_name": "Ukrainian Freedom Bible"
+        },
+        "ulk1902": {
+          "id": "ulk1902",
+          "status": "ok",
+          "verses": 3779,
+          "files": 4,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/ulk1902.jsonl",
+          "language": "und",
+          "translation_name": "Meriam Mir Bible"
+        },
+        "vie1934": {
+          "id": "vie1934",
+          "status": "ok",
+          "verses": 31102,
+          "files": 66,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/vie1934.jsonl",
+          "language": "und",
+          "translation_name": "Vietnamese Bible 1923"
+        },
+        "wro": {
+          "id": "wro",
+          "status": "ok",
+          "verses": 1829,
+          "files": 2,
+          "skipped_non_protestant_or_empty": 0,
+          "path": "derived/jsonl/wro.jsonl",
+          "language": "und",
+          "translation_name": "Worrorra Mark and Luke"
+        }
+      }
+    },
+    "md": {
+      "dir": "derived/md",
+      "description": "Reserved for Markdown exports (not built in this pass).",
+      "translations": {}
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "uberbible",
+  "private": true,
+  "description": "Public-domain Protestant Bibles: source archives + multi-format derived exports",
+  "scripts": {
+    "normalize": "node scripts/normalize-usfm.js",
+    "normalize:all": "node scripts/normalize-usfm.js --all",
+    "ingest": "node scripts/ingest-qdrant.js",
+    "ingest:sample": "node scripts/ingest-qdrant.js --id eng-kjv2006"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,3 @@
+# Reserved for Markdown (and similar) verse exports.
+# Populate later via scripts that read derived/jsonl/ or source USFM.
+# Format-first layout: derived/{format}/…
