@@ -130,9 +130,12 @@ docker run -d -p 6333:6333 -p 6334:6334 --name qdrant qdrant/qdrant
 
 node scripts/ingest-qdrant.js --id eng-kjv2006
 # node scripts/ingest-qdrant.js --all   # large; embeds every verse locally
+
+# Study materials → separate collection uberbible_study
+node scripts/ingest-study-qdrant.js --all
 ```
 
-Env overrides: `OLLAMA_HOST`, `OLLAMA_EMBED_MODEL`, `QDRANT_URL`, `QDRANT_COLLECTION`, `INGEST_BATCH`, `INGEST_CONCURRENCY`.
+Env overrides: `OLLAMA_HOST`, `OLLAMA_EMBED_MODEL`, `QDRANT_URL`, `QDRANT_COLLECTION`, `QDRANT_STUDY_COLLECTION`, `INGEST_BATCH`, `INGEST_CONCURRENCY`.
 
 ## Source notes
 

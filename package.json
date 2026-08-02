@@ -16,7 +16,9 @@
     "docs:build": "bash scripts/prepare-docs-dir.sh && mkdocs build",
     "docs:serve": "bash scripts/prepare-docs-dir.sh && mkdocs serve",
     "ingest": "node scripts/ingest-qdrant.js",
-    "ingest:sample": "node scripts/ingest-qdrant.js --id eng-kjv2006"
+    "ingest:sample": "node scripts/ingest-qdrant.js --id eng-kjv2006",
+    "ingest:study": "node scripts/ingest-study-qdrant.js",
+    "ingest:study:all": "node scripts/ingest-study-qdrant.js --all"
   },
   "engines": {
     "node": ">=18"
